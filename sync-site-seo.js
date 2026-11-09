@@ -100,6 +100,8 @@ function dealPage(d, lang){
       free:'FREE', expired:'Expired', home:'AI Deals Daily'}
     : {back:'← 全部线报', steps:'领取步骤', risk:'风险提示', elig:'门槛', region:'地区',
       deadline:'截止', none:'长期/未注明截止', source:'出处原文', open:'打开原页面', tier:'信源 ', free:'免费', expired:'已失效', home:'AI薅羊毛日报'};
+  const CAT = isEn ? {ai:'AI & Software', overseas:'Global Deals', gaming:'Games', digital:'Software', ecommerce:'E-commerce'}
+    : {ai:'AI/软件/会员', overseas:'海外精选', gaming:'游戏', digital:'数码软件', ecommerce:'电商'};
   const expired = d.deadline && new Date(d.deadline).getTime()<Date.now();
   const steps = (d.steps||[]).map(s=>'<li>'+esc(s)+'</li>').join('');
   return '<!DOCTYPE html>\n<html lang="'+(isEn?'en':'zh-CN')+'">\n<head>\n<meta charset="UTF-8">\n'
@@ -123,7 +125,7 @@ function dealPage(d, lang){
     +'<a class="back" href="../../">'+L.back+'</a>\n'
     +'<h1>'+esc(d.title)+'</h1>\n'
     +'<p class="benefit">'+esc(d.benefit)+'</p>\n'
-    +'<p class="meta">'+(d.costType==='free'?'<span class="free">'+L.free+'</span> · ':'')+esc(d.category)+' · '+esc(d.regionAvailability||'')+' · '+L.deadline+'：'+(d.deadline?esc(d.deadline.slice(0,10))+(expired?' · '+L.expired:''):L.none)+'</p>\n'
+    +'<p class="meta">'+(d.costType==='free'?'<span class="free">'+L.free+'</span> · ':'')+esc(CAT[d.category]||d.category)+' · '+esc(d.regionAvailability||'')+' · '+L.deadline+'：'+(d.deadline?esc(d.deadline.slice(0,10))+(expired?' · '+L.expired:''):L.none)+'</p>\n'
     +(steps?'<h2>'+L.steps+'</h2><ol>'+steps+'</ol>\n':'')
     +'<p class="kv"><b>'+L.elig+'</b>：'+esc(d.eligibility||'-')+'</p>\n'
     +'<p class="kv"><b>'+L.region+'</b>：'+esc(d.regionAvailability||'-')+'</p>\n'
