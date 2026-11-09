@@ -60,7 +60,9 @@ function refreshHome(file, data, iss, fc, lang){
       {'@type':'ItemList', name: isEn?'Latest deal alerts':'最新羊毛线报', numberOfItems: total, itemListElement: itemList(data, lang)}
     ]};
   const ldStr = JSON.stringify(ld);
-  html = html.replace(/(<script type="application\/ld\+json" id="ld-main">)[\s\S]*?(<\/script>)/, (m,g1,g2)=>g1+'\n'+ldStr+'\n'+g2);
+  // 先清除首页里全部旧 ld-main 块（历史版本曾残留多个、且含 $ 替换写坏的脏块），再统一注入唯一一块
+  html = html.replace(/<script type="application\/ld\+json" id="ld-main">[\s\S]*?<\/script>/g, '');
+  html = html.replace(/<\/head>/, () => '<script type="application/ld+json" id="ld-main">\n'+ldStr+'\n</script>\n</head>');
   write(file, html);
 }
 refreshHome('index.html', zh, issue, freeCount, 'zh');
