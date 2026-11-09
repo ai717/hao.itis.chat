@@ -135,7 +135,11 @@ function dealPage(d, lang){
     +(d.riskNote?'<p class="kv"><b>'+L.risk+'</b>：'+esc(d.riskNote)+'</p>\n':'')
     +(d.sourceQuote?'<h2>'+L.source+'</h2><blockquote style="border-left:3px solid #9c4a38;background:#f3e6e1;padding:8px 12px;margin:10px 0">'+esc(d.sourceQuote)+'</blockquote>\n':'')
     +'<p class="src">'+L.tier+esc(d.sourceTier||'')+' · <a href="'+esc(d.sourceUrl)+'" target="_blank" rel="noopener">'+L.open+' ↗</a></p>\n'
-    +'<footer class="site">'+L.home+' · <a href="'+SITE+'/">hao.itis.chat</a></footer>\n</div>\n</body>\n</html>\n';
+    +'<footer class="site">'+L.home+' · <a href="'+SITE+'/">hao.itis.chat</a><br>\n'
+    +(isEn
+      ? '<nav class="friends">Friends: <a href="https://www.moyunews.com/" target="_blank" rel="noopener">Moyu News</a> · <a href="https://muse.itis.chat/" target="_blank" rel="noopener">Muse Case</a> · <a href="https://free.itis.chat/" target="_blank" rel="noopener">itis Free</a> · <a href="https://m.ucncn.cn/" target="_blank" rel="noopener">Money Lab</a> · <a href="https://doin.win/" target="_blank" rel="noopener">Mini Games</a> · <a href="https://itis.chat/" target="_blank" rel="noopener">AI Navigation</a></nav>\n'
+      : '<nav class="friends">友情链接：<a href="https://www.moyunews.com/" target="_blank" rel="noopener">摸鱼杂货店</a> · <a href="https://muse.itis.chat/" target="_blank" rel="noopener">Muse实战案例库</a> · <a href="https://free.itis.chat/" target="_blank" rel="noopener">免费开源数字资源</a> · <a href="https://m.ucncn.cn/" target="_blank" rel="noopener">搞钱实验室</a> · <a href="https://doin.win/" target="_blank" rel="noopener">小游戏大全</a> · <a href="https://itis.chat/" target="_blank" rel="noopener">AI资源导航</a></nav>\n')
+    +'</footer>\n</div>\n</body>\n</html>\n';
 }
 for (const dir of ['deal', path.join('en','deal')]) {
   const fp = path.join(ROOT, dir);
