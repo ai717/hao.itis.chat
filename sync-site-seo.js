@@ -104,7 +104,10 @@ function dealPage(d, lang){
     : {ai:'AI/软件/会员', overseas:'海外精选', gaming:'游戏', digital:'数码软件', ecommerce:'电商'};
   const expired = d.deadline && new Date(d.deadline).getTime()<Date.now();
   const steps = (d.steps||[]).map(s=>'<li>'+esc(s)+'</li>').join('');
-  return '<!DOCTYPE html>\n<html lang="'+(isEn?'en':'zh-CN')+'">\n<head>\n<meta charset="UTF-8">\n'
+  return '<!DOCTYPE html>\n<html lang="'+(isEn?'en':'zh-CN')+'">\n<head>\n'
+    +'<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-573LL74P"></script>\n'
+    +'<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag(\'js\', new Date());\n</script>\n'
+    +'<meta charset="UTF-8">\n'
     +'<meta name="viewport" content="width=device-width, initial-scale=1.0">\n'
     +'<title>'+esc(title)+'</title>\n'
     +'<meta name="description" content="'+esc(desc)+'">\n'
