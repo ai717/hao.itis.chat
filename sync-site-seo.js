@@ -60,8 +60,17 @@ function refreshHome(file, data, iss, fc, lang){
       {'@type':'ItemList', name: isEn?'Latest deal alerts':'最新羊毛线报', numberOfItems: total, itemListElement: itemList(data, lang)}
     ]};
   const ldStr = JSON.stringify(ld);
-  // 先清除首页里全部旧 ld-main 块（历史版本曾残留多个、且含 $ 替换写坏的脏块），再统一注入唯一一块
-  html = html.replace(/<script type="application\/ld\+json" id="ld-main">[\s\S]*?<\/script>/g, '');
+  // 清除首页 head 里从第一个 ld-main 块到最后一个 </script> 的整段（历史脏块内部含被写坏的 </script>，
+  // 普通非贪婪匹配会残留半截 JSON 文本），再统一注入唯一一块
+  const ldOpen = '<script type="application/ld+json" id="ld-main">';
+  const firstLd = html.indexOf(ldOpen);
+  if (firstLd >= 0) {
+    const headEnd = html.indexOf('</head>');
+    const lastClose = html.lastIndexOf('</script>', headEnd);
+    if (lastClose > firstLd) html = html.slice(0, firstLd) + html.slice(lastClose + '</script>'.length);
+  }
+  // 再清掉游离在标签外的 ListItem 残片（脏块被 </script> 截断后留下的半截 JSON 文本）
+  html = html.replace(/(^|>)([^<]*"@type":"ListItem"[^<]*)/g, '$1');
   html = html.replace(/<\/head>/, () => '<script type="application/ld+json" id="ld-main">\n'+ldStr+'\n</script>\n</head>');
   write(file, html);
 }
@@ -103,6 +112,12 @@ function dealPage(d, lang){
     +'<meta property="og:type" content="article">\n<meta property="og:title" content="'+esc(d.title)+'">\n'
     +'<meta property="og:description" content="'+esc(desc)+'">\n<meta property="og:url" content="'+url+'">\n'
     +'<meta name="twitter:card" content="summary">\n'
+    +'<link rel="icon" href="'+(isEn?'../../':'../')+'favicon.ico" sizes="any">\n'
+    +'<link rel="icon" type="image/svg+xml" href="'+(isEn?'../../':'../')+'icon.svg">\n'
+    +'<link rel="apple-touch-icon" href="'+(isEn?'../../':'../')+'apple-touch-icon.png">\n'
+    +'<link rel="manifest" href="'+(isEn?'../../':'../')+'site.webmanifest">\n'
+    +'<meta name="theme-color" content="#faf7f1">\n'
+    +'<meta property="og:image" content="https://hao.itis.chat/icon-512.png">\n'
     +'<link rel="stylesheet" href="'+(isEn?'../../':'../')+'style.css">\n'
     +'<script type="application/ld+json">\n'+JSON.stringify(ld)+'\n</script>\n</head>\n<body>\n<div class="wrap deal-page">\n'
     +'<a class="back" href="'+(isEn?'../':'../')+'">'+L.back+'</a>\n'
