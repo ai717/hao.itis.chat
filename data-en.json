@@ -1,7 +1,18 @@
 {
   "site": "AI Deals Daily",
-  "exportedAt": "2026-11-09T15:02:00.000Z",
+  "exportedAt": "2026-11-09T17:24:57.000Z",
   "issues": [
+    {
+      "id": 2,
+      "kind": "flash",
+      "label": "2026-11-09 Evening Flash",
+      "startedAt": "2026-11-09T14:19:02.896Z",
+      "finishedAt": "2026-11-09T16:51:42.083Z",
+      "status": "published",
+      "dealCount": 7,
+      "error": null,
+      "summary": "User-submitted special: the WorkBuddy Journalists' Day creator event (points + JD card for participants) + 6 free compute/cloud resources (Simular Box, Kaggle, Pxxl, Cloady, Codespaces, Cloudflare Workers), all verified before inclusion"
+    },
     {
       "id": 1,
       "kind": "main",
@@ -607,6 +618,167 @@
       "steps": [
         "When you see 'Perplexity Pro free for a year / free for students', check the publish date first",
         "Follow Perplexity's official pricing page only; never enter card details on third-party pages to claim a 'free year'"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "WorkBuddy Journalists' Day Creator Event: 1,000 Points + ¥30 JD Card for Participants",
+      "benefit": "Participation prize: 1,000 WorkBuddy points + a ¥30 JD shopping card once your work passes review; top prize: 10,000 WorkBuddy points + a Tencent Video annual membership",
+      "category": "ai",
+      "subcategory": "Event Rewards",
+      "tier": "S",
+      "costType": "qualified",
+      "deadline": null,
+      "discoveredAt": "2026-11-09T16:51:42.031Z",
+      "eligibility": "Self-media bloggers, media professionals and journalists (the event is themed Journalists' Day, but creators can join); verified journalists can claim an extra 1,000 points",
+      "regionAvailability": "China only",
+      "riskNote": "User submission, as relayed: a Journalists' Day themed event — submission deadline and review criteria follow the WorkBuddy official account event page, so submit soon; participate via the mini-program/app during the event, and verified journalists can claim an extra 1,000 points",
+      "sourceQuote": "参与奖：只要作品符合要求，就有 1000 Workbuddy 积分 + 30 元京东购物卡",
+      "sourceTier": "C",
+      "sourceUrl": "https://x.com/hashtag/WorkBuddy%E8%83%BD%E5%B8%AE%E5%88%9B%E4%BD%9C%E8%80%85%E5%A4%9A%E5%A4%A7%E5%BF%99?src=hashtag_click",
+      "status": "进行中",
+      "steps": [
+        "Include both hashtags when publishing: #WorkBuddy能帮创作者多大忙 and #还得是我Buddy (include both)",
+        "Reply 「记者节活动投稿」 in the WorkBuddy official account to enter the submission page",
+        "Fill in your details, submit your work, and wait for review"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Simular Box: Free Cloud Computer Your Agent Can Wake Up",
+      "benefit": "Free cloud Ubuntu desktop (Chrome + terminal + persistent files) that your AI operates directly via MCP; sleeps when idle and wakes in about 1 second when an agent calls it; free during beta, freemium later",
+      "category": "ai",
+      "subcategory": "Cloud & Dev",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-09T16:51:42.031Z",
+      "eligibility": "Registered users, sign in with Google/GitHub, no card required",
+      "regionAvailability": "Available worldwide",
+      "riskNote": "User-submitted lead, verified against official docs: the box itself is free; model calls consume your own account's daily credits; switches to freemium usage-based pricing after beta",
+      "sourceQuote": "Cost: the box itself is free. A box sleeps when idle and wakes in about a second when an agent calls it.",
+      "sourceTier": "B",
+      "sourceUrl": "https://box.simular.ai/",
+      "status": "进行中",
+      "steps": [
+        "Open box.simular.ai and sign in with Google/GitHub",
+        "Add the MCP server https://mcp.box.simular.ai/mcp in your AI app and authorize it",
+        "Or run npx @simular-ai/box connect in your coding agent to connect"
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Kaggle: ~30 Hours of Free GPU per Week (Dual T4 / P100)",
+      "benefit": "Notebook free GPU about 30 hours per week (dual T4 or P100, up to 12 hours per session), plus about 20 hours/week of TPU; quota resets weekly and is visible in account settings",
+      "category": "ai",
+      "subcategory": "Cloud & Dev",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-09T16:51:42.031Z",
+      "eligibility": "Registered Kaggle users who completed phone verification, no card required",
+      "regionAvailability": "Available worldwide",
+      "riskNote": "User-submitted lead, verified from multiple sources: notebooks with GPU enabled have no internet by default (no pip installs or model downloads on the fly); queues possible at peak times; exact quota follows your account settings",
+      "sourceQuote": "GPU: up to 30 hours per week, which Kaggle says is sometimes higher depending on demand. The quota resets weekly.",
+      "sourceTier": "C",
+      "sourceUrl": "https://aifree.dev/learn/free-gpu-for-ai",
+      "status": "进行中",
+      "steps": [
+        "Register on Kaggle and complete phone verification",
+        "Create a Notebook and enable GPU acceleration in settings (dual T4 or P100)",
+        "Run within the ~30-hour weekly quota; Save & Run All can run in the background for up to 12 hours"
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Pxxl: Free Hosting with No Card — 5 Projects + 50 GiB Outbound Traffic/Month",
+      "benefit": "Free plan with no card required: 5 projects, 1 custom domain, 50 GiB outbound bandwidth per month; deploy websites/APIs/databases from a GitHub repo in one click",
+      "category": "ai",
+      "subcategory": "Cloud & Dev",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-09T16:51:42.031Z",
+      "eligibility": "Registered users, no card required",
+      "regionAvailability": "Available worldwide",
+      "riskNote": "User-submitted lead, verified on the official site: the submission's claim of a 'Taiwan data center' is not confirmed by official sources — server location follows the platform's actual allocation; the free tier deploys mainly from GitHub repos",
+      "sourceQuote": "Start free. Pay when you grow. No card needed to start. Free: 5 total project slots, 1 custom domain, 50 GiB outbound bandwidth/month.",
+      "sourceTier": "B",
+      "sourceUrl": "https://pxxl.app/",
+      "status": "进行中",
+      "steps": [
+        "Open pxxl.app and register a free account",
+        "Connect a GitHub/GitLab/Bitbucket repo",
+        "Deploy in one click; the free tier auto-assigns a subdomain"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Cloady: Free Workspace Cloud Hosting (US Nodes)",
+      "benefit": "Free workspace: 0.5 vCPU / 1 GB RAM / 5 GB SSD (shared across all apps); GitHub/Docker deployment, custom domains and automatic HTTPS; US East/West and Europe nodes available",
+      "category": "ai",
+      "subcategory": "Cloud & Dev",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-09T16:51:42.031Z",
+      "eligibility": "Registered users, no card required; free tier only available in some regions",
+      "regionAvailability": "Available worldwide",
+      "riskNote": "Watch out for cliff billing: if any resource exceeds its limit, the whole workspace switches to paid; apps idle for 7 days are auto-paused; the free tier's monthly outbound traffic follows the official docs (10 GB/month)",
+      "sourceQuote": "Cloady：美国西雅图免费节点（用户投稿）；免费层 0.5 vCPU / 1 GB RAM / 5 GB SSD 为官方文档口径（助理 2026-11-08 实测评估）",
+      "sourceTier": "C",
+      "sourceUrl": "https://cloady.com",
+      "status": "进行中",
+      "steps": [
+        "Open cloady.com, register and create a free workspace",
+        "Deploy your app with GitHub or Docker",
+        "Bind a custom domain — HTTPS is issued automatically"
+      ]
+    },
+    {
+      "id": 33,
+      "title": "GitHub Codespaces: 120 Free Core Hours of Cloud Dev Environment per Month",
+      "benefit": "Personal free accounts include 120 core hours + 15 GB storage per month (about 60 hours on a 2-core machine) — a ready-to-use cloud dev environment in the browser or VS Code",
+      "category": "ai",
+      "subcategory": "Cloud & Dev",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-09T16:51:42.031Z",
+      "eligibility": "GitHub personal accounts (organization accounts get no free quota)",
+      "regionAvailability": "Available worldwide",
+      "riskNote": "User-submitted lead, verified against GitHub's official billing docs: core hours = cores × hours, so 120 core hours only lasts 30 hours on a 4-core machine; storage is billed per GB-month, and idle codespaces still consume storage quota",
+      "sourceQuote": "120 GitHub Codespaces core hours and 15 GB of Codespaces storage a month.",
+      "sourceTier": "C",
+      "sourceUrl": "https://www.lilachbullock.com/is-github-free/",
+      "status": "进行中",
+      "steps": [
+        "Open any GitHub repo and click Code → Codespaces",
+        "Create a codespace and use it within your monthly 120 core hours",
+        "Stop when done: without a payment method, overages are auto-blocked — no charges"
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Cloudflare Workers: 100,000 Free Requests per Day on the Free Plan",
+      "benefit": "Workers free plan: 100,000 requests per day (resets at midnight UTC); deploy lightweight APIs, automations and small tools serverlessly with no ops to manage",
+      "category": "ai",
+      "subcategory": "Cloud & Dev",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-09T16:51:42.031Z",
+      "eligibility": "Cloudflare free plan users",
+      "regionAvailability": "Available worldwide",
+      "riskNote": "User-submitted lead, verified against Cloudflare's official docs: overages return Error 1027; this is a separate quota from the Workers AI 10,000 Neurons/day already on the board — don't mix them up",
+      "sourceQuote": "Accounts on the Workers Free plan have a daily request limit of 100,000 requests, resetting at midnight UTC.",
+      "sourceTier": "A",
+      "sourceUrl": "https://developers.cloudflare.com/workers/platform/limits/?ref=noted.lol",
+      "status": "进行中",
+      "steps": [
+        "Register on Cloudflare and enable the Workers free plan",
+        "Deploy a Worker with Wrangler or the dashboard",
+        "Run within the 100,000 daily requests (10ms CPU limit per invocation)"
       ]
     }
   ]

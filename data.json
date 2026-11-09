@@ -1,7 +1,18 @@
 {
   "site": "AI薅羊毛日报",
-  "exportedAt": "2026-11-09T15:02:00.000Z",
+  "exportedAt": "2026-11-09T17:24:57.000Z",
   "issues": [
+    {
+      "id": 2,
+      "kind": "flash",
+      "label": "2026-11-09 晚间快讯",
+      "startedAt": "2026-11-09T14:19:02.896Z",
+      "finishedAt": "2026-11-09T16:51:42.083Z",
+      "status": "published",
+      "dealCount": 7,
+      "error": null,
+      "summary": "用户投稿专刊：WorkBuddy 记者节创作活动（参与奖积分+京东卡）+ 6 条免费算力/云资源（Simular Box、Kaggle、Pxxl、Cloady、Codespaces、Cloudflare Workers），均经核验后收录"
+    },
     {
       "id": 1,
       "kind": "main",
@@ -607,6 +618,167 @@
       "steps": [
         "看到“Perplexity Pro 免费一年/学生免费”先核对发布日期",
         "以 Perplexity 官网价格页为准，不要在第三方页面填卡领所谓免费年"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "WorkBuddy 记者节创作活动：参与奖 1000 积分 + 30 元京东卡",
+      "benefit": "参与奖：作品过审即得 1000 WorkBuddy 积分 + 30 元京东购物卡；最高奖 1 万 WorkBuddy 积分 + 腾讯视频年卡",
+      "category": "ai",
+      "subcategory": "活动奖励",
+      "tier": "S",
+      "costType": "qualified",
+      "deadline": null,
+      "discoveredAt": "2026-11-09T16:51:42.031Z",
+      "eligibility": "自媒体博主、媒体从业者和新闻业人员（活动名为记者节，实际创作者可参加）；记者认证另可领 1000 积分",
+      "regionAvailability": "仅限中国",
+      "riskNote": "用户投稿转述：记者节主题活动，投稿截止与审核口径以 WorkBuddy 公众号活动页为准，建议尽快投稿；活动期间在小程序/App 参与、认证记者可另领 1000 积分",
+      "sourceQuote": "参与奖：只要作品符合要求，就有 1000 Workbuddy 积分 + 30 元京东购物卡",
+      "sourceTier": "C",
+      "sourceUrl": "https://x.com/hashtag/WorkBuddy%E8%83%BD%E5%B8%AE%E5%88%9B%E4%BD%9C%E8%80%85%E5%A4%9A%E5%A4%A7%E5%BF%99?src=hashtag_click",
+      "status": "进行中",
+      "steps": [
+        "发布内容时带上两个话题：#WorkBuddy能帮创作者多大忙 和 #还得是我Buddy（两个都要带）",
+        "在 WorkBuddy 公众号回复「记者节活动投稿」进入投稿页",
+        "填写相关信息提交作品，等待审核"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Simular Box：免费云电脑，Agent 连上就能唤醒",
+      "benefit": "免费云端 Ubuntu 桌面（Chrome+终端+文件持久保存），你的 AI 通过 MCP 接入直接操作，闲置自动休眠、Agent 调用约 1 秒唤醒；beta 期免费、后续 freemium",
+      "category": "ai",
+      "subcategory": "云与开发",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-09T16:51:42.031Z",
+      "eligibility": "注册用户，Google/GitHub 登录，免绑卡",
+      "regionAvailability": "全球可用",
+      "riskNote": "用户投稿线索，官方文档核验：box 本身免费，模型调用消耗你自己账号的每日 credits；beta 后转 freemium 按量付费",
+      "sourceQuote": "Cost: the box itself is free. A box sleeps when idle and wakes in about a second when an agent calls it.",
+      "sourceTier": "B",
+      "sourceUrl": "https://box.simular.ai/",
+      "status": "进行中",
+      "steps": [
+        "打开 box.simular.ai 用 Google/GitHub 登录",
+        "在你的 AI 应用里添加 MCP 服务器 https://mcp.box.simular.ai/mcp 并授权",
+        "或在编程 Agent 里运行 npx @simular-ai/box connect 完成接入"
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Kaggle：每周约 30 小时免费 GPU（T4 双卡/P100）",
+      "benefit": "Notebook 免费 GPU 每周约 30 小时（T4 x2 或 P100，单次会话最长 12 小时），另有约 20 小时/周 TPU，额度每周重置、账户设置里可见",
+      "category": "ai",
+      "subcategory": "云与开发",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-09T16:51:42.031Z",
+      "eligibility": "注册并完成手机验证的 Kaggle 用户，免绑卡",
+      "regionAvailability": "全球可用",
+      "riskNote": "用户投稿线索，多源核验：开启 GPU 时 Notebook 默认无外网（不能临时 pip 装包下模型）；高峰期可能排队；确切配额以账户设置为准",
+      "sourceQuote": "GPU: up to 30 hours per week, which Kaggle says is sometimes higher depending on demand. The quota resets weekly.",
+      "sourceTier": "C",
+      "sourceUrl": "https://aifree.dev/learn/free-gpu-for-ai",
+      "status": "进行中",
+      "steps": [
+        "注册 Kaggle 并完成手机号验证",
+        "新建 Notebook，在设置里开启 GPU 加速（T4 x2 或 P100）",
+        "在每周约 30 小时配额内运行，Save & Run All 可后台跑满 12 小时"
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Pxxl：免绑卡免费托管，5 个项目 + 每月 50 GiB 出站流量",
+      "benefit": "免费计划免绑卡：5 个项目、1 个自定义域名、每月 50 GiB 出站流量，支持 GitHub 仓库一键部署网站/API/数据库",
+      "category": "ai",
+      "subcategory": "云与开发",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-09T16:51:42.031Z",
+      "eligibility": "注册用户，免绑卡",
+      "regionAvailability": "全球可用",
+      "riskNote": "用户投稿线索，官网核验：投稿所称「台湾机房」未获官方证实，机房位置以平台实际分配为准；免费版以 GitHub 仓库部署为主",
+      "sourceQuote": "Start free. Pay when you grow. No card needed to start. Free: 5 total project slots, 1 custom domain, 50 GiB outbound bandwidth/month.",
+      "sourceTier": "B",
+      "sourceUrl": "https://pxxl.app/",
+      "status": "进行中",
+      "steps": [
+        "打开 pxxl.app 注册免费账号",
+        "连接 GitHub/GitLab/Bitbucket 仓库",
+        "一键部署，免费版自动分配子域名"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Cloady：免费工作区云托管（美国节点）",
+      "benefit": "免费工作区：0.5 vCPU / 1 GB 内存 / 5 GB SSD（全应用共享），支持 GitHub/Docker 部署、自定义域名与自动 HTTPS，美东/美西与欧洲节点可选",
+      "category": "ai",
+      "subcategory": "云与开发",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-09T16:51:42.031Z",
+      "eligibility": "注册用户，免绑卡；免费仅部分区域开放",
+      "regionAvailability": "全球可用",
+      "riskNote": "注意悬崖计费：任一资源超额后整个工作区转为付费；应用闲置 7 天自动暂停；免费层每月出站流量以官方文档为准（10 GB/月）",
+      "sourceQuote": "Cloady：美国西雅图免费节点（用户投稿）；免费层 0.5 vCPU / 1 GB RAM / 5 GB SSD 为官方文档口径（助理 2026-11-08 实测评估）",
+      "sourceTier": "C",
+      "sourceUrl": "https://cloady.com",
+      "status": "进行中",
+      "steps": [
+        "打开 cloady.com 注册并创建免费工作区",
+        "用 GitHub 或 Docker 部署应用",
+        "绑定自定义域名，自动签发 HTTPS"
+      ]
+    },
+    {
+      "id": 33,
+      "title": "GitHub Codespaces：每月 120 核小时免费云开发环境",
+      "benefit": "个人免费账户每月含 120 核小时 + 15 GB 存储（约合 2 核机器 60 小时），浏览器/VS Code 里开箱即用的云端开发环境",
+      "category": "ai",
+      "subcategory": "云与开发",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-09T16:51:42.031Z",
+      "eligibility": "GitHub 个人账户（组织账户无免费额度）",
+      "regionAvailability": "全球可用",
+      "riskNote": "用户投稿线索，GitHub 官方计费文档核验：核小时=核数×时长，选 4 核机器 120 核小时只够 30 小时；存储按 GB-月计，闲置 codespace 也占存储额度",
+      "sourceQuote": "120 GitHub Codespaces core hours and 15 GB of Codespaces storage a month.",
+      "sourceTier": "C",
+      "sourceUrl": "https://www.lilachbullock.com/is-github-free/",
+      "status": "进行中",
+      "steps": [
+        "打开任意 GitHub 仓库，点 Code → Codespaces",
+        "创建 codespace，在每月 120 核小时内使用",
+        "用完即停：无支付方式时超额自动阻断、不会扣费"
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Cloudflare Workers：免费计划每天 10 万次请求",
+      "benefit": "Workers 免费计划每天 100,000 次请求（UTC 午夜重置），无服务器部署轻量 API、自动化与小工具，不用管运维",
+      "category": "ai",
+      "subcategory": "云与开发",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-09T16:51:42.031Z",
+      "eligibility": "Cloudflare 免费计划用户",
+      "regionAvailability": "全球可用",
+      "riskNote": "用户投稿线索，Cloudflare 官方文档核验：超额返回 Error 1027；与看板已有的 Workers AI 每天 10000 Neurons 是两个独立额度，别混用",
+      "sourceQuote": "Accounts on the Workers Free plan have a daily request limit of 100,000 requests, resetting at midnight UTC.",
+      "sourceTier": "A",
+      "sourceUrl": "https://developers.cloudflare.com/workers/platform/limits/?ref=noted.lol",
+      "status": "进行中",
+      "steps": [
+        "注册 Cloudflare 并开通 Workers 免费计划",
+        "用 Wrangler 或控制台部署 Worker",
+        "在每天 10 万次请求额度内运行（单次调用 CPU 上限 10ms）"
       ]
     }
   ]
