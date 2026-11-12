@@ -64,6 +64,12 @@
   <div class="toolbar">
     <div class="chips" id="chips"></div>
     <input class="search" id="search" type="search" placeholder="搜索：工具名 / 额度 / 分类…">
+    <div class="sortbar"><label for="sort">排序</label><select class="sort" id="sort">
+      <option value="newest">最新收录</option>
+      <option value="expiring">即将到期</option>
+      <option value="free">免费优先</option>
+      <option value="oldest">最早收录</option>
+    </select><span class="shown-count" id="shown-count"></span></div>
     <p class="expire-note" id="expire-note"></p>
   </div>
 

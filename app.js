@@ -10,7 +10,7 @@
     elig:'Eligibility', region:'Region', source:'Source', tier:'Source tier ', open:'Open original page',
     empty:'No deals match.', expiring:function(n){return n+' deal(s) ending within 24 hours';},
     cost:{free:'Free',card:'Card required',qualified:'Eligibility required',paid:'Paid deal'},
-    favTitle:'Save to my list'
+    favTitle:'Save to my list', moreBtn:'Load more', shownOf:function(a,b){return 'Showing '+a+' of '+b;}
   } : {
     cats:{ai:'AI/软件/会员',overseas:'海外精选',gaming:'游戏',digital:'数码软件',ecommerce:'电商'},
     all:'全部', free:'只看免费', favs:'想薅的', freeMark:'免费', expired:'已失效',
@@ -19,9 +19,10 @@
     elig:'门槛', region:'地区', source:'出处原文', tier:'信源 ', open:'打开原页面',
     empty:'没有符合条件的线报。', expiring:function(n){return '有 '+n+' 条将在 24 小时内截止';},
     cost:{free:'免费',card:'需绑卡',qualified:'需资格',paid:'付费优惠'},
-    favTitle:'收藏到想薅的'
+    favTitle:'收藏到想薅的', moreBtn:'加载更多', shownOf:function(a,b){return '已显示 '+a+' / 共 '+b+' 条';}
   };
-  var state={cat:'all',q:'',favsOnly:false};
+  var PAGE=20;
+  var state={cat:'all',q:'',favsOnly:false,sort:'newest',shown:PAGE};
   var favs=new Set(JSON.parse(localStorage.getItem('hao-favs')||'[]'));
   function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
   function highlight(title){
@@ -54,14 +55,28 @@
       if(state.q){ var hay=(d.title+' '+d.benefit+' '+(d.subcategory||'')).toLowerCase(); if(hay.indexOf(state.q.toLowerCase())<0) return false; }
       return true;
     });
+    function sinkRank(d){ var ex=deadlineInfo(d).expired?2:0; var pit=d.tier==='pitfall'?1:0; return ex+pit; }
     list.sort(function(a,b){
-      var af=a.costType==='free'?0:1, bf=b.costType==='free'?0:1; if(af!==bf) return af-bf;
-      var at=a.tier==='pitfall'?1:0, bt=b.tier==='pitfall'?1:0; if(at!==bt) return at-bt;
-      return a.id-b.id;
+      var sa=sinkRank(a), sb=sinkRank(b); if(sa!==sb) return sa-sb;
+      if(state.sort==='oldest') return a.id-b.id;
+      if(state.sort==='expiring'){
+        var ae=a.deadline?new Date(a.deadline).getTime():Infinity, be=b.deadline?new Date(b.deadline).getTime():Infinity;
+        if(ae!==be) return ae-be;
+        return b.id-a.id;
+      }
+      if(state.sort==='free'){
+        var af=a.costType==='free'?0:1, bf=b.costType==='free'?0:1; if(af!==bf) return af-bf;
+        return b.id-a.id;
+      }
+      return b.id-a.id; /* newest */
     });
+    var total=list.length;
+    var page=list.slice(0, state.shown);
+    var countEl=document.getElementById('shown-count');
+    if(countEl) countEl.textContent = total? T.shownOf(page.length, total):'';
     var main=document.getElementById('list');
     if(!list.length){ main.innerHTML='<p class="empty">'+T.empty+'</p>'; return; }
-    main.innerHTML=list.map(function(d){
+    main.innerHTML=page.map(function(d){
       var di=deadlineInfo(d);
       var meta=[ d.costType==='free'?'<span class="free">'+T.freeMark+' · '+esc(T.cost[d.costType]||d.costType)+'</span>':esc(T.cost[d.costType]||d.costType),
         esc(T.cats[d.category]||d.category), esc(d.regionAvailability||''),
@@ -81,6 +96,12 @@
         +'<p class="meta">'+meta+'</p>'
         +detail+'</article>';
     }).join('');
+    if(total>state.shown){
+      var more=document.createElement('button');
+      more.className='more-btn'; more.textContent=T.moreBtn+'（'+(total-state.shown)+'）';
+      more.addEventListener('click',function(){ state.shown+=PAGE; render(data); });
+      main.appendChild(more);
+    }
     main.querySelectorAll('[data-fav]').forEach(function(b){ b.addEventListener('click',function(){
       var id=Number(b.getAttribute('data-fav'));
       if(favs.has(id)) favs.delete(id); else favs.add(id);
@@ -88,13 +109,15 @@
       render(data);
     });});
   }
-  function setCat(c,data){ state.cat=c; render(data); }
+  function setCat(c,data){ state.cat=c; state.shown=PAGE; render(data); }
   function boot(data){
     if(!data||!data.deals) { document.getElementById('list').innerHTML='<p class="empty">'+T.empty+'</p>'; return; }
     var iss=(data.issues||[])[0];
     if(iss){ var el=document.getElementById('issue-label'); if(el) el.textContent=iss.label; }
     render(data);
-    document.getElementById('search').addEventListener('input',function(e){ state.q=e.target.value.trim(); render(data); });
+    document.getElementById('search').addEventListener('input',function(e){ state.q=e.target.value.trim(); state.shown=PAGE; render(data); });
+    var sortEl=document.getElementById('sort');
+    if(sortEl){ sortEl.addEventListener('change',function(e){ state.sort=e.target.value; state.shown=PAGE; render(data); }); }
   }
   fetch(DATA_URL).then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
     .then(boot).catch(function(){ boot(window.__DATA__); });
