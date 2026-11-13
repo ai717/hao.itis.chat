@@ -1,7 +1,18 @@
 {
   "site": "AI Deals Daily",
-  "exportedAt": "2026-11-12T18:52:56.000Z",
+  "exportedAt": "2026-11-13T01:56:15.000Z",
   "issues": [
+    {
+      "dealCount": 14,
+      "error": null,
+      "finishedAt": "2026-11-13T01:15:45.759Z",
+      "id": 10,
+      "kind": "main",
+      "label": "2026-11-13 Main Issue",
+      "startedAt": "2026-11-13T00:58:41.227Z",
+      "status": "published",
+      "summary": "This issue covers 24 items: free voice/API credits expiring Nov 30 lead (Fish Audio, HeyGen, Qiniu Conatus, Fireworks), plus a Google Cloud $300 trial, 1-year Google AI Pro for students, and free Epic and Prime games. Pi generated 24 items / 0 manual fallback"
+    },
     {
       "id": 9,
       "kind": "flash",
@@ -2089,6 +2100,144 @@
         "Claim the 30-day membership on the membership/activity page",
         "Handle simple questions, small tasks, and info lookup for free in auto mode; pick a 0.01-rate model for heavy tasks to control cost"
       ]
+    },
+    {
+      "benefit": "Free to use until November 17, 2026 11:59:59 (UTC+8), after which TTS is billed at $14/million characters",
+      "category": "ai",
+      "costType": "free",
+      "deadline": "2026-11-17T03:59:59.000Z",
+      "discoveredAt": "2026-11-13T01:15:45.715Z",
+      "eligibility": "All users with access to StepFun API",
+      "id": 90,
+      "regionAvailability": "Available worldwide",
+      "riskNote": "Limited-time free; billing resumes from 2026-11-17 12:00 (UTC+8), TTS charged at $14/million characters",
+      "sourceQuote": "StepFun's StepAudio 3 series is free on the StepFun API for a limited time, through 11:59:59 AM on November 17, 2026 (UTC+8).",
+      "sourceTier": "B",
+      "sourceUrl": "https://freetierfinder.com/promos",
+      "status": "名额紧张",
+      "steps": [
+        "Visit StepFun API platform to obtain API Key",
+        "Call StepAudio 3 series model APIs in code",
+        "Enjoy free quota before 2026-11-17 11:59:59"
+      ],
+      "subcategory": "Generation Credits",
+      "tier": "S",
+      "title": "StepFun StepAudio 3 Series Limited-Time Free API Access"
+    },
+    {
+      "benefit": "Fireworks AI Muse Glimmer 30B SFT model free and open, includes UI and Serverless Training API",
+      "category": "ai",
+      "costType": "free",
+      "deadline": "2026-11-30T23:59:59.000Z",
+      "discoveredAt": "2026-11-13T01:15:45.715Z",
+      "eligibility": "Anyone can use, no credit card required",
+      "id": 91,
+      "regionAvailability": "Available worldwide",
+      "riskNote": "Free period ends 2026-11-30",
+      "sourceQuote": "Fireworks AI | Muse Glimmer 30B SFT free through November 30 (UI + Serverless Training API) | Anyone (no credit card required)",
+      "sourceTier": "B",
+      "sourceUrl": "https://perq.sh/blog/this-week-in-ai-credits-nov-09-2026",
+      "status": "进行中",
+      "steps": [
+        "Visit Fireworks AI platform",
+        "Select Muse Glimmer 30B SFT model",
+        "Call directly via UI or Serverless Training API"
+      ],
+      "subcategory": "AI Credits",
+      "tier": "S",
+      "title": "Fireworks Muse Glimmer 30B SFT Free Use (until 2026-11-30)"
+    },
+    {
+      "benefit": "Get $300 credit, usable within 90-day free trial period",
+      "category": "ai",
+      "costType": "card",
+      "deadline": null,
+      "discoveredAt": "2026-11-13T01:15:45.715Z",
+      "eligibility": "Google Cloud new customers",
+      "id": 92,
+      "regionAvailability": "Available worldwide",
+      "riskNote": "Credit cannot be used for AI Studio's Gemini API; resources stop if not upgraded after trial ends",
+      "sourceQuote": "New Google Cloud customers get a $300 Welcome credit to spend over a 90-day Free Trial on most Google Cloud services. You must add a valid payment method, but you are not billed during the trial.",
+      "sourceTier": "B",
+      "sourceUrl": "https://grabaicredits.com/en/deals/google-cloud-free-trial-300-credits",
+      "status": "进行中",
+      "steps": [
+        "Register new Google Cloud account",
+        "Add valid payment method (no charge during trial)",
+        "Claim $300 welcome credit to start using"
+      ],
+      "subcategory": "Cloud & Dev",
+      "tier": "S",
+      "title": "Google Cloud New User $300 Welcome Credit 90-Day Free Trial"
+    },
+    {
+      "benefit": "Free 1 Year Google AI Pro, Worth $239.88",
+      "category": "ai",
+      "costType": "card",
+      "deadline": "2026-12-31T23:59:59.000Z",
+      "discoveredAt": "2026-11-13T01:15:45.715Z",
+      "eligibility": "US College Students (18+), Verified via SheerID",
+      "id": 93,
+      "regionAvailability": "US only",
+      "riskNote": "Must bind payment method, auto-renews at $19.99/month after free 1 year ends, remember to cancel at Google One billing page before expiry",
+      "sourceQuote": "Google gives eligible US college students (18+) a free year of Google AI Pro, worth $239.88. Redeem by December 31, 2026.",
+      "sourceTier": "B",
+      "sourceUrl": "https://digitaltatva.com/ai-student-discounts/",
+      "status": "进行中",
+      "steps": [
+        "Verify student identity via SheerID before December 31, 2026",
+        "Bind payment method to complete redemption",
+        "Get 1 Year Free Google AI Pro Subscription"
+      ],
+      "subcategory": "Membership Trials",
+      "tier": "S",
+      "title": "Google AI Pro Student Free 1 Year (Worth $239.88)"
+    },
+    {
+      "benefit": "Verified students use Copilot for free, unlimited code completions (regular free version: 2000 times per month)",
+      "category": "ai",
+      "costType": "qualified",
+      "deadline": null,
+      "discoveredAt": "2026-11-13T01:15:45.715Z",
+      "eligibility": "Students verified through GitHub Education",
+      "id": 94,
+      "regionAvailability": "Available worldwide",
+      "riskNote": "GitHub re-verifies student eligibility monthly; benefits revoked after losing student status; no explicit end date",
+      "sourceQuote": "Copilot Student is free for students verified through GitHub Education, and GitHub lists no end date, though it re-checks eligibility every month.",
+      "sourceTier": "B",
+      "sourceUrl": "https://www.getlykke.com/blog/free-ai-tools-for-students",
+      "status": "进行中",
+      "steps": [
+        "Visit GitHub Education to complete student verification",
+        "Enable Copilot Student in GitHub settings",
+        "Log in to GitHub account in IDE to use Copilot"
+      ],
+      "subcategory": "Membership Trials",
+      "tier": "S",
+      "title": "GitHub Copilot Student Free Version"
+    },
+    {
+      "benefit": "Lifetime deals up to 98% off, most offer 60-day money-back guarantee",
+      "category": "overseas",
+      "costType": "paid",
+      "deadline": "2026-12-04T18:00:00.000Z",
+      "discoveredAt": "2026-11-13T01:15:45.715Z",
+      "eligibility": "All users eligible; Plus members get early access to 5 Black Friday exclusive tools",
+      "id": 95,
+      "regionAvailability": "Available worldwide",
+      "riskNote": "Promotion ends December 4 at 12:00 CT; prices increase after 48 hours per tool round, missing lowest price means paying higher fees",
+      "sourceQuote": "Black Friday 2026 Is Live Until December 4 — AppSumo's Black Friday sale runs until December 4 at 12pm CT.",
+      "sourceTier": "B",
+      "sourceUrl": "https://www.elitecontentmarketer.com/deals/appsumo-coupon/",
+      "status": "进行中",
+      "steps": [
+        "Starting November 16 at 8:00 CT, check for new tool round every other day",
+        "Order within 48 hours of each tool round launch to lock in lowest price",
+        "Full refund available within 60 days of order if unsatisfied (only for lifetime deals with refund support)"
+      ],
+      "subcategory": "",
+      "tier": "S",
+      "title": "AppSumo Black Friday Sale: Lifetime Deals Up to 98% Off, Ends December 4"
     }
   ]
 }

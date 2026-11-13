@@ -1,7 +1,18 @@
 {
   "site": "AI薅羊毛日报",
-  "exportedAt": "2026-11-12T18:52:56.000Z",
+  "exportedAt": "2026-11-13T01:56:15.000Z",
   "issues": [
+    {
+      "dealCount": 14,
+      "error": null,
+      "finishedAt": "2026-11-13T01:15:45.759Z",
+      "id": 10,
+      "kind": "main",
+      "label": "2026-11-13 主刊",
+      "startedAt": "2026-11-13T00:58:41.227Z",
+      "status": "published",
+      "summary": "本期 24 条：11 月 30 日到期的免费语音/API 额度集中爆发（Fish Audio、HeyGen、七牛 Conatus、Fireworks），另有 Google Cloud $300 试用、学生 1 年 Google AI Pro、Epic 与 Prime 免费游戏。Pi 生成 24 条 / 人工兜底 0 条"
+    },
     {
       "id": 9,
       "kind": "flash",
@@ -2088,6 +2099,144 @@
         "在会员/活动入口领取 30 天会员",
         "自动模式下免费处理简单提问、小任务与查资料；重活选 0.01 倍率模型控成本"
       ]
+    },
+    {
+      "benefit": "免费使用至 2026 年 11 月 17 日 11:59:59 (UTC+8)，之后 TTS 按 $14/百万字符计费",
+      "category": "ai",
+      "costType": "free",
+      "deadline": "2026-11-17T03:59:59.000Z",
+      "discoveredAt": "2026-11-13T01:15:45.715Z",
+      "eligibility": "所有可访问 StepFun API 的用户",
+      "id": 90,
+      "regionAvailability": "全球可用",
+      "riskNote": "限时免费，2026-11-17 12:00（UTC+8）起恢复收费，TTS 按 $14/百万字符计费",
+      "sourceQuote": "StepFun's StepAudio 3 series is free on the StepFun API for a limited time, through 11:59:59 AM on November 17, 2026 (UTC+8).",
+      "sourceTier": "B",
+      "sourceUrl": "https://freetierfinder.com/promos",
+      "status": "名额紧张",
+      "steps": [
+        "访问 StepFun API 平台获取 API Key",
+        "在代码中调用 StepAudio 3 系列模型接口",
+        "在 2026-11-17 11:59:59 前享受免费额度"
+      ],
+      "subcategory": "生成额度",
+      "tier": "S",
+      "title": "StepFun StepAudio 3 系列限时免费调用 API"
+    },
+    {
+      "benefit": "Fireworks AI Muse Glimmer 30B SFT 模型免费开放，含 UI 与 Serverless Training API",
+      "category": "ai",
+      "costType": "free",
+      "deadline": "2026-11-30T23:59:59.000Z",
+      "discoveredAt": "2026-11-13T01:15:45.715Z",
+      "eligibility": "任何人均可使用，无需信用卡",
+      "id": 91,
+      "regionAvailability": "全球可用",
+      "riskNote": "免费期限至 2026 年 11 月 30 日截止",
+      "sourceQuote": "Fireworks AI | Muse Glimmer 30B SFT free through November 30 (UI + Serverless Training API) | Anyone (no credit card required)",
+      "sourceTier": "B",
+      "sourceUrl": "https://perq.sh/blog/this-week-in-ai-credits-nov-09-2026",
+      "status": "进行中",
+      "steps": [
+        "访问 Fireworks AI 平台",
+        "选择 Muse Glimmer 30B SFT 模型",
+        "通过 UI 或 Serverless Training API 直接调用"
+      ],
+      "subcategory": "AI额度",
+      "tier": "S",
+      "title": "Fireworks Muse Glimmer 30B SFT 免费使用（至2026年11月30日）"
+    },
+    {
+      "benefit": "获得 $300 赠金，可在 90 天免费试用期内使用",
+      "category": "ai",
+      "costType": "card",
+      "deadline": null,
+      "discoveredAt": "2026-11-13T01:15:45.715Z",
+      "eligibility": "Google Cloud 新客户",
+      "id": 92,
+      "regionAvailability": "全球可用",
+      "riskNote": "赠金不可用于 AI Studio 的 Gemini API；试用期结束不升级则资源停止",
+      "sourceQuote": "New Google Cloud customers get a $300 Welcome credit to spend over a 90-day Free Trial on most Google Cloud services. You must add a valid payment method, but you are not billed during the trial.",
+      "sourceTier": "B",
+      "sourceUrl": "https://grabaicredits.com/en/deals/google-cloud-free-trial-300-credits",
+      "status": "进行中",
+      "steps": [
+        "注册 Google Cloud 新账号",
+        "添加有效付款方式（试用期内不扣费）",
+        "领取 $300 迎新赠金开始使用"
+      ],
+      "subcategory": "云与开发",
+      "tier": "S",
+      "title": "Google Cloud 新用户 $300 迎新赠金 90 天免费试用"
+    },
+    {
+      "benefit": "免费 1 年 Google AI Pro，价值 $239.88",
+      "category": "ai",
+      "costType": "card",
+      "deadline": "2026-12-31T23:59:59.000Z",
+      "discoveredAt": "2026-11-13T01:15:45.715Z",
+      "eligibility": "美国大学生（18 岁以上），经 SheerID 验证",
+      "id": 93,
+      "regionAvailability": "仅限某国(美国)",
+      "riskNote": "需绑支付方式，免费 1 年到期后自动续订 $19.99/月，记得在到期前到 Google One 账单页取消",
+      "sourceQuote": "Google gives eligible US college students (18+) a free year of Google AI Pro, worth $239.88. Redeem by December 31, 2026.",
+      "sourceTier": "B",
+      "sourceUrl": "https://digitaltatva.com/ai-student-discounts/",
+      "status": "进行中",
+      "steps": [
+        "在 2026 年 12 月 31 日前通过 SheerID 验证学生身份",
+        "绑定支付方式完成兑换",
+        "获得 1 年免费 Google AI Pro 订阅"
+      ],
+      "subcategory": "会员试用",
+      "tier": "S",
+      "title": "Google AI Pro 学生免费领取 1 年（价值 $239.88）"
+    },
+    {
+      "benefit": "认证学生免费使用 Copilot，代码补全不限次数（普通免费版每月 2000 次）",
+      "category": "ai",
+      "costType": "qualified",
+      "deadline": null,
+      "discoveredAt": "2026-11-13T01:15:45.715Z",
+      "eligibility": "通过 GitHub Education 认证的学生",
+      "id": 94,
+      "regionAvailability": "全球可用",
+      "riskNote": "GitHub 每月复核学生资格，失去学生身份后权益收回；无明确结束日期",
+      "sourceQuote": "Copilot Student is free for students verified through GitHub Education, and GitHub lists no end date, though it re-checks eligibility every month.",
+      "sourceTier": "B",
+      "sourceUrl": "https://www.getlykke.com/blog/free-ai-tools-for-students",
+      "status": "进行中",
+      "steps": [
+        "访问 GitHub Education 完成学生认证",
+        "在 GitHub 设置中启用 Copilot Student",
+        "在 IDE 中登录 GitHub 账号使用 Copilot"
+      ],
+      "subcategory": "会员试用",
+      "tier": "S",
+      "title": "GitHub Copilot 学生免费版"
+    },
+    {
+      "benefit": "终身交易最高 98% 折扣，大多数提供 60 天退款保障",
+      "category": "overseas",
+      "costType": "paid",
+      "deadline": "2026-12-04T18:00:00.000Z",
+      "discoveredAt": "2026-11-13T01:15:45.715Z",
+      "eligibility": "全用户可参与；Plus 会员可提前抢购 5 款黑五专属工具",
+      "id": 95,
+      "regionAvailability": "全球可用",
+      "riskNote": "促销于 12 月 4 日 12:00 CT 结束；每轮工具 48 小时后涨价，错过最低价需支付更高费用",
+      "sourceQuote": "Black Friday 2026 Is Live Until December 4 — AppSumo's Black Friday sale runs until December 4 at 12pm CT.",
+      "sourceTier": "B",
+      "sourceUrl": "https://www.elitecontentmarketer.com/deals/appsumo-coupon/",
+      "status": "进行中",
+      "steps": [
+        "11 月 16 日 8:00 CT 起，每隔一天关注新一轮工具上架",
+        "每轮工具上架后 48 小时内以最低价下单锁定价格",
+        "下单后 60 天内不满意可申请全额退款（仅限支持退款的终身交易）"
+      ],
+      "subcategory": "",
+      "tier": "S",
+      "title": "AppSumo 黑五大促：终身优惠最高 98% 折扣，12 月 4 日截止"
     }
   ]
 }
