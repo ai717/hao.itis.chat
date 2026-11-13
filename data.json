@@ -2194,7 +2194,7 @@
   },
   {
    "benefit": "认证学生免费使用 Copilot，代码补全不限次数（普通免费版每月 2000 次）",
-   "category": "ai",
+   "category": "freetoken",
    "costType": "qualified",
    "deadline": null,
    "discoveredAt": "2026-11-13T01:15:45.715Z",

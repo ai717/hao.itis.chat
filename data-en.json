@@ -2195,7 +2195,7 @@
   },
   {
    "benefit": "Verified students use Copilot for free, unlimited code completions (regular free version: 2000 times per month)",
-   "category": "ai",
+   "category": "freetoken",
    "costType": "qualified",
    "deadline": null,
    "discoveredAt": "2026-11-13T01:15:45.715Z",
