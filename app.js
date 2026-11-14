@@ -3,7 +3,7 @@
   var BASE = EN ? '../' : './';
   var DATA_URL = BASE + (EN ? 'data-en.json' : 'data.json');
   var T = EN ? {
-    cats:{ai:'AI & Software',freetoken:'Free Tokens',overseas:'Global Deals',gaming:'Games',digital:'Software',ecommerce:'E-commerce'},
+    cats:{ai:'AI & Software',freetoken:'Free Tokens',crypto:'Crypto',ucard:'U Cards',bank:'Global Banks',cloud:'Cloud & VPS',overseas:'Global Deals',gaming:'Games',digital:'Software',ecommerce:'E-commerce'},
     all:'All', free:'Free only', favs:'Saved', freeMark:'FREE', expired:'Expired',
     daysLeft:function(d,h){return d>0?('Ends in '+d+'d'):(h>0?('Ends in '+h+'h'):'Ending soon');},
     noDeadline:'No deadline stated', more:'How to claim & source', steps:'Steps', risk:'Watch out',
@@ -12,7 +12,7 @@
     cost:{free:'Free',card:'Card required',qualified:'Eligibility required',paid:'Paid deal'},
     favTitle:'Save to my list', moreBtn:'Load more', shownOf:function(a,b){return 'Showing '+a+' of '+b;}
   } : {
-    cats:{ai:'AI/软件/会员',freetoken:'免费Token',overseas:'海外精选',gaming:'游戏',digital:'数码软件',ecommerce:'电商'},
+    cats:{ai:'AI/软件/会员',freetoken:'免费Token',crypto:'Crypto',ucard:'U卡',bank:'海外银行',cloud:'VPS云服务',overseas:'海外精选',gaming:'游戏',digital:'数码软件',ecommerce:'电商'},
     all:'全部', free:'只看免费', favs:'想薅的', freeMark:'免费', expired:'已失效',
     daysLeft:function(d,h){return d>0?('剩 '+d+' 天'):(h>0?('剩 '+h+' 小时'):'即将截止');},
     noDeadline:'长期/未注明截止', more:'薅法与出处', steps:'领取步骤', risk:'风险提示',
