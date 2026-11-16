@@ -1,6 +1,6 @@
 {
   "site": "AI薅羊毛日报",
-  "exportedAt": "2026-11-16T02:11:29.000Z",
+  "exportedAt": "2026-11-16T10:10:39.000Z",
   "issues": [
     {
       "id": 16,
@@ -12,6 +12,17 @@
       "dealCount": 19,
       "error": null,
       "summary": "S级 11 条（AI/软件 1 条 · 海外 1 条 · 免费Token 9 条），新分类：Crypto 1 条 · U卡 1 条 · 海外银行 1 条 · VPS云服务 4 条；另精选数字商品 1 条。亮点：50X 注册送 $100（约 9 亿 Token）、PolyAI $100 额度 11 月 19 日截止、AutoClaw 1 亿 Token 11 月 16–22 日开领、Oracle $300 与 Snowflake $400 云试用。Pi 生成 18 条 / 人工兜底 1 条"
+    },
+    {
+      "id": 15,
+      "kind": "flash",
+      "label": "2026-11-15 晚间快讯",
+      "startedAt": "2026-11-15T11:57:41.963Z",
+      "finishedAt": "2026-11-15T12:03:50.835Z",
+      "status": "published",
+      "dealCount": 8,
+      "error": null,
+      "summary": "本期 8 条：S级 7 条（免费Token 6 条 · AI/软件 1 条），精选云服务 1 条（Google Cloud $300 试用金：11月16日起新注册/升级的赠金不再抵 Gemini 平台费用，今日为最后窗口）。亮点：StepAudio 3 全系限免延至 11月17日 11:59:59；Regolo.ai 30 天全量 Core 模型免费试用免绑卡；Inferbase 免费档月 5,000 次请求免绑卡。Crypto/U卡/海外银行本次扫描无新增可核验项（币安迎新礼与 Chase 开户奖与第 14 期重复，已略过）；50X $100、PolyAI $100、ZCode 周末 5 亿、AutoClaw 1 亿、知乎搜索 API 官方页未能核验具体额度，均未收录。Pi 生成 8 条 / 人工兜底 0 条"
     },
     {
       "id": 14,
@@ -47,6 +58,17 @@
       "summary": "本期 28 条：S级 23 条（AI/软件 5 条 · 海外 3 条 · 免费Token 15 条），另精选游戏与 AppSumo 黑五 5 条；ZCode 周末 5 亿 Token 11 月 16 日截止、AutoClaw 1 亿 11 月 16 日开领、iteraCompute 免费推广 11 月 24 日结束。Pi 生成 28 条 / 人工兜底 0 条"
     },
     {
+      "id": 11,
+      "kind": "flash",
+      "label": "2026-11-13 晚间快讯",
+      "startedAt": "2026-11-13T11:57:41.645Z",
+      "finishedAt": "2026-11-13T12:00:50.662Z",
+      "status": "published",
+      "dealCount": 2,
+      "error": null,
+      "summary": "闪查（近12小时）：赛博鸡蛋 RSS + 懒猫 feed 已扫，发现 2 条真正重大且已在官方页复核的限时免费 Token：Gemini 4 Hydrogen（11月12日发布，免费层输入/输出/缓存全免）与 Perplexity Decider v1.3（OpenRouter 免费一周，约11月19日结束）。其余排除：Inkling 2 Small 与 Particle-1 的免费路由分别发布于 11月9日与 10月28日，非近12小时新上；VModel $3/deAPI $5 为小额常规新客额度；Codex 重置卡仅限付费用户；谷歌云 $300 为通用云额度且是规则收紧通知。Pi 生成 2 条 / 人工兜底 0 条"
+    },
+    {
       "dealCount": 14,
       "error": null,
       "finishedAt": "2026-11-13T01:15:45.759Z",
@@ -64,7 +86,7 @@
       "startedAt": "2026-11-12T18:51:39.947Z",
       "finishedAt": "2026-11-12T18:51:50.639Z",
       "status": "published",
-      "dealCount": 1,
+      "dealCount": 2,
       "error": null,
       "summary": "用户投稿专刊：豆包工作新用户领 30 天会员 + 自动模式简单任务免费（歸藏 @op7418 X 帖，总管读原帖核验后收录）。Pi 生成 0 条 / 人工兜底 1 条"
     },
@@ -80,6 +102,17 @@
       "error": null
     },
     {
+      "id": 6,
+      "kind": "flash",
+      "label": "2026-11-11 晚间快讯",
+      "startedAt": "2026-11-11T12:40:03.467Z",
+      "finishedAt": "2026-11-11T12:41:22.570Z",
+      "status": "published",
+      "dealCount": 1,
+      "error": null,
+      "summary": "大羊毛快闪：7-Eleven 今日加油叠加每加仑最高省 $1.13（11月11日仅限今天，Doctor of Credit 11/11 更新确认可叠加，多张当日实测截图佐证）。Pi 生成 0 条 / 人工兜底 1 条"
+    },
+    {
       "dealCount": 25,
       "finishedAt": "2026-11-11T01:10:13.139Z",
       "id": 5,
@@ -88,6 +121,17 @@
       "startedAt": "2026-11-11T00:58:41.297Z",
       "status": "published",
       "summary": "本期 25 条：AI 免费额度与学生/试用福利为主，含腾讯云 TokenHub 每模型 100 万 Token、Google 云 $300 试用、Google AI Pro 学生 1 年免费等，另有 Epic/Steam 免费游戏与 AppSumo 终身买断；Pi 生成 25 条 / 人工兜底 0 条"
+    },
+    {
+      "id": 4,
+      "kind": "flash",
+      "label": "2026-11-10 晚间快讯",
+      "startedAt": "2026-11-10T12:40:03.756Z",
+      "finishedAt": "2026-11-10T12:41:57.784Z",
+      "status": "published",
+      "dealCount": 1,
+      "error": null,
+      "summary": "【Pi 免费额度可能触顶】闪报：Lazada新加坡11.11今晚20点开售，收录1条大促。Pi 生成 0 条 / 人工兜底 1 条"
     },
     {
       "id": 3,
@@ -3729,6 +3773,305 @@
         "下载 RedotPay App 注册并完成 KYC",
         "付 $10 开卡费开通虚拟 Visa 卡",
         "$5 迎新金到账后可在商户消费"
+      ]
+    },
+    {
+      "id": 159,
+      "title": "Lazada新加坡11.11大促开售：LazFlash最高90% off，$1.10起秒杀",
+      "benefit": "LazFlash最高90% off，特价$1.10/$11/$51/$111，惊喜盒$11得$50货值",
+      "category": "overseas",
+      "subcategory": "电商大促",
+      "tier": "S",
+      "costType": "paid",
+      "deadline": "2026-11-13T15:59:59.000Z",
+      "discoveredAt": "2026-11-10T12:41:57.752Z",
+      "eligibility": "Lazada新加坡站用户，需新加坡站账号与配送地址",
+      "regionAvailability": "仅限某国(新加坡)",
+      "riskNote": "限量抢购、先到先得，抢完即止；价格为新币；惊喜盒为组合装，$50为官方标称货值；仅限新加坡站。",
+      "sourceQuote": "Lazada's massive 11.11 Sale is back from 8pm on 10 November to 13 November 2026; enjoy up to 90% LazFlash discounts at selected hours.",
+      "sourceTier": "C",
+      "sourceUrl": "https://thehoneycombers.com/singapore/lazada-11-11-sale/",
+      "status": "进行中",
+      "steps": [
+        "打开Lazada新加坡站/App，进入11.11会场",
+        "蹲LazFlash场次：11月10日20:00–11月11日02:00，11–13日每日20:00–24:00",
+        "抢$1.10/$11/$51/$111特价与惊喜盒（11月10日20:00首发，12/13日0点再掉）"
+      ]
+    },
+    {
+      "id": 160,
+      "title": "7-Eleven 加油叠加码：每加仑最高省 $1.13，11月11日仅限今天",
+      "benefit": "ALLGAS 50¢ + MAVSFAN 26¢ + STARSFAN 26¢ + 新用户 11¢，叠加后每加仑最高省 $1.13（老用户 $1.02）",
+      "category": "local",
+      "subcategory": "加油优惠",
+      "tier": "pick",
+      "costType": "qualified",
+      "deadline": "2026-11-12T04:59:59.000Z",
+      "discoveredAt": "2026-11-11T12:41:22.543Z",
+      "eligibility": "美国 7-Eleven / Speedway 加油站；免费注册 7Rewards 会员并验证手机号",
+      "regionAvailability": "仅限美国",
+      "riskNote": "仅限 11 月 11 日当天；ALLGAS 的 50¢ 部分每月仅 7 号和 11 号可用（至 12 月 11 日）。$1.13 为含新用户 11¢ 的叠加价，老用户为 $1.02，多个当日实测截图证实可叠加，但个别门店/账号结果可能有差异；无需绑卡。",
+      "sourceQuote": "Update 11/11/26: Available again, reminder this stacks with $0.26 Off Per Gallon When You Text STARSFAN & 'MAVSFAN' To 711711. Text ALLGAS to 711711 (711) and 96001 (Speedway) for 50 cents off per gallon on the 7th and 11th of the month thru December 11th.",
+      "sourceTier": "B",
+      "sourceUrl": "https://www.doctorofcredit.com/7-eleven-0-5-off-per-gallon-on-7th-11th-each-month-through-7-11-26/",
+      "status": "进行中",
+      "steps": [
+        "下载 7-Eleven App，注册 7Rewards 并验证手机号",
+        "发短信 ALLGAS、MAVSFAN、STARSFAN 到 711711（Speedway 发到 96001），新用户另享 Welcome Offer",
+        "在 App 内确认优惠已叠加并 Lock In 锁价后再加油"
+      ]
+    },
+    {
+      "id": 161,
+      "title": "Krispy Kreme 周五 13 号限时买一送一：第 2 打原味糖霜甜甜圈仅 13 美分",
+      "benefit": "买任意一打原价，第 2 打原味糖霜甜甜圈仅 13 美分（13美分/一打）",
+      "category": "local",
+      "subcategory": "",
+      "tier": "pick",
+      "costType": "paid",
+      "deadline": "2026-11-14T04:59:59.000Z",
+      "discoveredAt": "2026-11-12T18:53:02.324Z",
+      "eligibility": "全美参与活动的 Krispy Kreme 门店，限每位顾客一打 13 美分优惠，售完即止",
+      "regionAvailability": "仅限某国(美国)",
+      "riskNote": "仅限 11 月 13 日周五一天，参与门店有限，售完即止",
+      "sourceQuote": "For one day only Friday, Nov. 13, guests can buy any dozen at regular price and get a dozen Original Glazed® doughnuts for just 13 cents. The 13-cent Original Glazed® dozen is available Friday at participating Krispy Kreme shops across the U.S., in-shop and for pickup or delivery through the Krispy Kreme app and website using promo code 13. Limit one 13-cent dozen per guest, while supplies last.",
+      "sourceTier": "A",
+      "sourceUrl": "https://www.businesswire.com/news/home/20261112626103/en/KRISPY-KREME-Marks-Rare-Friday-the-13th-World-Kindness-Day-with-13-Cent-Original-Glazed-Dozens-to-Share",
+      "status": "即将开始",
+      "steps": [
+        "到店或通过 Krispy Kreme App/官网下单自取或外卖",
+        "先买任意一打原价甜甜圈",
+        "线上订单输入优惠码 13 加购第 2 打原味糖霜甜甜圈（仅 13 美分）"
+      ]
+    },
+    {
+      "id": 162,
+      "title": "Gemini 4 Hydrogen 免费层：输入/输出/缓存全免费",
+      "benefit": "免费层输入、输出、上下文缓存均免费，1M Token 上下文窗口，最长输出 1M Token",
+      "category": "freetoken",
+      "subcategory": "AI额度",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-13T12:00:50.629Z",
+      "eligibility": "拥有 Google 账号的用户，无需绑定信用卡",
+      "regionAvailability": "全球可用",
+      "riskNote": "免费层提交的内容会被用于改进 Google 产品；免费层不支持 Google Search 联网 grounding 功能",
+      "sourceQuote": "信源：赛博鸡蛋。Google 官方定价页：Gemini 4 Hydrogen 免费层输入、输出、上下文缓存均为“Free of charge”，付费价 $1.50/$7.50 每百万 Tokens，1M 统一上下文窗口。",
+      "sourceTier": "A",
+      "sourceUrl": "https://aistudio.google.com/prompts/new_chat?model=gemini-4-hydrogen",
+      "status": "进行中",
+      "steps": [
+        "访问 Google AI Studio (https://aistudio.google.com) 并登录 Google 账号",
+        "新建对话，模型选择 gemini-4-hydrogen",
+        "或直接调用 Gemini API 免费层接口"
+      ]
+    },
+    {
+      "id": 163,
+      "title": "Perplexity Decider v1.3/Flash 判定模型 OpenRouter 限时免费一周",
+      "benefit": "免费一周（约11月19日结束），输入与输出均 $0，上下文 262,144 Token",
+      "category": "freetoken",
+      "subcategory": "AI额度",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-13T12:00:50.629Z",
+      "eligibility": "拥有 OpenRouter 账号的开发者/用户",
+      "regionAvailability": "全球可用",
+      "riskNote": "免费端点有速率限制；仅走 Decisions API，不可用于普通对话生成；免费期约 2026-11-19 结束，之后按 OpenRouter 定价收费",
+      "sourceQuote": "信源：赛博鸡蛋。OpenRouter 官方模型页：“Yes. The pricing shown on this page for Decider V1.3 (free) is zero, so you are not charged for prompt or completion tokens.”上下文 262,144 Token；免费一周，11 月 19 日前后结束。",
+      "sourceTier": "A",
+      "sourceUrl": "https://openrouter.ai/perplexity/pplx-decider-v1.3:free",
+      "status": "进行中",
+      "steps": [
+        "在 OpenRouter 注册账号并创建 API Key",
+        "客户端指向 https://openrouter.ai/api/v1，模型填 perplexity/pplx-decider-v1.3:free（小模型填 perplexity/pplx-decider-flash-v1.3:free）",
+        "走 OpenRouter Decisions API 发起判定请求，单次可对同一材料批量提多道是非/选择/评分题"
+      ]
+    },
+    {
+      "id": 164,
+      "title": "Inferbase 免费档：月 5,000 次请求 + 日 100 次托管请求/$0.50 用量",
+      "benefit": "每月 5,000 次任意模型请求，每天额外赠送 100 次托管请求及 $0.50 模型用量，无需绑卡、无时间限制",
+      "category": "freetoken",
+      "subcategory": "AI额度",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-15T12:03:50.794Z",
+      "eligibility": "所有用户（无需信用卡）",
+      "regionAvailability": "全球可用",
+      "riskNote": "免费档超额后请求会被拒绝（402），不会自动扣费；图片、语音、视频等需另购额度（$10 起）",
+      "sourceQuote": "信源：懒猫 AI。官方定价页 Free 档：'$0 no time limit. Build on managed models within daily limits. No card required. 5,000 requests a month, on any model and any key. 100 managed requests and $0.50 of model usage a day, free.'（懒猫 AI 核实日期 2026-11-15）",
+      "sourceTier": "A",
+      "sourceUrl": "https://lanmao.ai/go/inferbase-free-plan",
+      "status": "进行中",
+      "steps": [
+        "访问 https://inferbase.ai/pricing 注册账号",
+        "创建 API Key 即可直接调用任意托管模型",
+        "在日限额（100 次托管请求/$0.50 用量）与月限额（5,000 次请求）内免费使用"
+      ]
+    },
+    {
+      "id": 165,
+      "title": "Regolo.ai 免费试用 30 天全量核心模型",
+      "benefit": "30 天全量无限制访问所有 Regolo 核心模型，无需信用卡",
+      "category": "freetoken",
+      "subcategory": "AI额度",
+      "tier": "S",
+      "costType": "qualified",
+      "deadline": null,
+      "discoveredAt": "2026-11-15T12:03:50.794Z",
+      "eligibility": "新用户免费试用（无需信用卡）",
+      "regionAvailability": "全球可用",
+      "riskNote": "试用结束自动转为按量付费档，不自动扣费、无隐藏转换费；到期后需自行决定是否订阅或按量使用",
+      "sourceQuote": "信源：懒猫 AI。官方定价页：'You get 30 days of full, unrestricted access to all Regolo core models — no credit card required. Simply sign up, grab your API key, and start building.'（懒猫 AI 核实日期 2026-11-15）",
+      "sourceTier": "A",
+      "sourceUrl": "https://lanmao.ai/go/regolo-ai-30-day-free-trial",
+      "status": "进行中",
+      "steps": [
+        "访问 https://regolo.ai/pricing/ 注册账号",
+        "获取 API Key",
+        "30 天内免费调用全部 Core 模型"
+      ]
+    },
+    {
+      "id": 166,
+      "title": "阶跃星辰 StepAudio 3 系列限时免费至 11 月 17 日",
+      "benefit": "StepAudio 3 系列语音与音乐模型（实时语音、语音合成、音频生成、音乐生成、语音识别）限免期内调用按 0 元计费，截止北京时间 2026 年 11 月 17 日上午 11:59:59",
+      "category": "freetoken",
+      "subcategory": "生成额度",
+      "tier": "S",
+      "costType": "qualified",
+      "deadline": "2026-11-17T03:59:59.000Z",
+      "discoveredAt": "2026-11-15T12:03:50.794Z",
+      "eligibility": "个人账号完成实名认证",
+      "regionAvailability": "全球可用",
+      "riskNote": "11 月 17 日 12:00 起恢复按量计费，需注意费用产生；限免期由 11 月 8 日延长至 11 月 17 日",
+      "sourceQuote": "信源：懒猫 AI。官方定价页原文：'适用限时免费政策的模型限免至北京时间 2026 年 11 月 17 日上午11:59:59。'（懒猫 AI 核实日期 2026-11-15）",
+      "sourceTier": "A",
+      "sourceUrl": "https://lanmao.ai/go/stepfun-stepaudio3-preview-limited-free",
+      "status": "进行中",
+      "steps": [
+        "访问 platform.stepfun.com 注册或登录账号",
+        "完成个人实名认证",
+        "调用 StepAudio 3 系列模型 API 即享 0 元计费（注意使用限免专属模型 ID）"
+      ]
+    },
+    {
+      "id": 167,
+      "title": "Dify Sandbox 免费版：200 条消息额度 + 5 应用 / 50 文档 / 50MB 存储",
+      "benefit": "获得 200 条消息额度（可调用 OpenAI、Anthropic、Gemini、xAI、通义等模型），并可创建 5 个应用、上传 50 篇知识库文档、使用 50MB 知识库存储",
+      "category": "freetoken",
+      "subcategory": "云与开发",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-15T12:03:50.795Z",
+      "eligibility": "所有注册 Dify 账号的用户",
+      "regionAvailability": "全球可用",
+      "riskNote": "额度用完后需换自己的 API Key 继续使用；Sandbox 档不含团队协作等企业功能",
+      "sourceQuote": "信源：懒猫 AI。官方定价页 Sandbox 档 Free：'200 message credits. Message credits are provided to help you easily try out different models from OpenAI, Anthropic, Gemini, xAI, Tongyi in Dify.'（懒猫 AI 核实日期 2026-11-15）",
+      "sourceTier": "A",
+      "sourceUrl": "https://lanmao.ai/go/dify-cloud-sandbox-free",
+      "status": "进行中",
+      "steps": [
+        "打开 https://dify.ai/pricing，选择 Sandbox 档免费开始",
+        "注册 Dify 账号并进入工作区",
+        "用 200 message credits 直接试 OpenAI、Anthropic、Gemini、xAI、通义等模型，额度用完可换自己的 API Key"
+      ]
+    },
+    {
+      "id": 168,
+      "title": "Greptile Starter 免费版：每月 50 积分",
+      "benefit": "每月获得 50 免费积分，可用于代码审查（Base 审查 1 积分，Plus 审查 3 积分，Apex 审查 10 积分），支持无限仓库、1 位活跃开发者",
+      "category": "freetoken",
+      "subcategory": "云与开发",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-15T12:03:50.795Z",
+      "eligibility": "所有注册用户（个人开发者免费档）",
+      "regionAvailability": "全球可用",
+      "riskNote": "每月 50 credits，用完需等下月或升级付费；符合条件的非商业开源项目可免费使用",
+      "sourceQuote": "信源：懒猫 AI。官方定价页 Starter 档 Free：'1 active developer, 50 free credits per month, Unlimited repositories.' FAQ：'A Base review uses 1 credit, a Plus review uses 3, an Apex review uses 10.'（懒猫 AI 核实日期 2026-11-15）",
+      "sourceTier": "A",
+      "sourceUrl": "https://lanmao.ai/go/greptile-starter-free-50-credits",
+      "status": "进行中",
+      "steps": [
+        "打开 https://www.greptile.com/pricing 注册账号",
+        "选择 Starter 免费档",
+        "在仓库中启用 Greptile，每月用 50 credits 做 AI 代码审查"
+      ]
+    },
+    {
+      "id": 169,
+      "title": "Rocket.new 免费档：一次性 20 Credits，永不过期",
+      "benefit": "免费获得一次性 20 Credits，可生成网站、落地页、Web 应用和移动应用，Credits 永不过期，无需信用卡",
+      "category": "freetoken",
+      "subcategory": "生成额度",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-15T12:03:50.795Z",
+      "eligibility": "所有人（无需信用卡）",
+      "regionAvailability": "全球可用",
+      "riskNote": "20 Credits 为一次性赠送，用完后需购买额外 Credits 或升级付费计划",
+      "sourceQuote": "信源：懒猫 AI。官方定价页 Free 档：'$0 Per month platform fee. 20 free credits. Credits never expire.' FAQ：'The Free plan gives you one-time 20 credits — no credit card required.'（懒猫 AI 核实日期 2026-11-15）",
+      "sourceTier": "A",
+      "sourceUrl": "https://lanmao.ai/go/rocket-new-free-20-credits",
+      "status": "进行中",
+      "steps": [
+        "访问 https://www.rocket.new/pricing 注册账号",
+        "选择 Free 计划（$0/月）",
+        "开始使用 20 Credits 生成应用"
+      ]
+    },
+    {
+      "id": 170,
+      "title": "Sourcery 公开仓库永久免费 AI 代码审查",
+      "benefit": "公开仓库享 AI 审查、PR 摘要与图表、一键修复、自定义审查规则、每 PR 安全检查，永久免费",
+      "category": "ai",
+      "subcategory": "云与开发",
+      "tier": "S",
+      "costType": "qualified",
+      "deadline": null,
+      "discoveredAt": "2026-11-15T12:03:50.795Z",
+      "eligibility": "拥有 GitHub 或 GitLab 公开仓库的开发者/团队",
+      "regionAvailability": "全球可用",
+      "riskNote": "仅公开仓库永久免费，私有仓库需付费；另有 14 天 Team 版免费试用，无需绑卡",
+      "sourceQuote": "信源：懒猫 AI。官方定价页：'Code review for public repos, Free forever'，含 'AI reviews on public repos, PR summaries and diagrams, One-click fixes, Custom review rules, Security checks on every PR'；'Install Sourcery on your public repositories on GitHub or GitLab and it reviews every pull request.'（懒猫 AI 核实日期 2026-11-15）",
+      "sourceTier": "A",
+      "sourceUrl": "https://lanmao.ai/go/sourcery-open-source-free-review",
+      "status": "进行中",
+      "steps": [
+        "访问 https://www.sourcery.ai/pricing",
+        "点击安装 Sourcery 到你的公开仓库（GitHub/GitLab）",
+        "后续每个 Pull Request 自动触发 AI 审查"
+      ]
+    },
+    {
+      "id": 171,
+      "title": "Google Cloud 新客户 $300 免费额度",
+      "benefit": "新客户获 $300 免费额度，可试用 Google Cloud 产品并构建概念验证，升级付费前不扣费",
+      "category": "cloud",
+      "subcategory": "云与开发",
+      "tier": "pick",
+      "costType": "card",
+      "deadline": null,
+      "discoveredAt": "2026-11-15T12:03:50.795Z",
+      "eligibility": "从未使用过 Google Cloud 的新客户，需绑定有效付款方式",
+      "regionAvailability": "全球可用",
+      "riskNote": "试用期间不扣费，需手动升级为付费账号后才按量计费，不会自动续费扣款；11月16日起新注册或之后升级付费账号的，赠金不能再抵 Gemini 平台费用——11月16日前注册并升级的账号剩余额度可继续用，今日为最后窗口",
+      "sourceQuote": "信源：赛博鸡蛋。Google Cloud 官方免费页：'New customers get $300 in free credit to try Google Cloud products and build a proof of concept. You won't be charged until you upgrade to a paid account.'",
+      "sourceTier": "A",
+      "sourceUrl": "https://cloud.google.com/free",
+      "status": "进行中",
+      "steps": [
+        "访问 https://cloud.google.com/free 点击免费开始使用",
+        "登录或创建 Google 账号，填写账单地址并绑定付款方式验证身份",
+        "完成注册后自动获得 $300 额度"
       ]
     }
   ]
