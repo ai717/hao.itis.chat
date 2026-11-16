@@ -25,6 +25,8 @@
   var state={cat:'all',q:'',favsOnly:false,sort:'newest',shown:PAGE};
   var favs=new Set(JSON.parse(localStorage.getItem('hao-favs')||'[]'));
   function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+  function linkify(s){return s.replace(/(https?:\/\/[^\s<>"']+)/g,function(u){var m=u.match(/[。，、；：！？）】」』.,;:!?)]+$/);var tail=m?m[0]:'';if(tail)u=u.slice(0,-tail.length);return '<a class="inlink" href="'+u+'" target="_blank" rel="noopener">'+u+'</a>'+tail;});}
+  function escL(s){return linkify(esc(s));}
   function highlight(title){
     var e=esc(title);
     return e.replace(/(\$\s?\d[\d,]*(\.\d+)?|\d+(\.\d+)?\s?%|\d+\s?折|[\d,]+\s?(亿|万)?\s?(Tokens|tokens|credits|Credits|Neurons|词元|元|GB|TB)|£\d[\d,]*|€\d[\d,]*)/g,'<span class="num">$1</span>');
@@ -81,18 +83,18 @@
       var meta=[ d.costType==='free'?'<span class="free">'+T.freeMark+' · '+esc(T.cost[d.costType]||d.costType)+'</span>':esc(T.cost[d.costType]||d.costType),
         esc(T.cats[d.category]||d.category), esc(d.regionAvailability||''),
         '<span class="'+(di.urgent?'urgent':'')+'">'+esc(di.expired?T.expired:di.text)+'</span>' ].join(' · ');
-      var steps=(d.steps||[]).map(function(s){return '<li>'+esc(s)+'</li>';}).join('');
+      var steps=(d.steps||[]).map(function(s){return '<li>'+escL(s)+'</li>';}).join('');
       var detail='<details class="deal-more"><summary>'+T.more+'</summary>'
         +(steps?'<p class="kv"><b>'+T.steps+'</b></p><ol>'+steps+'</ol>':'')
         +'<p class="kv"><b>'+T.elig+'</b>：'+esc(d.eligibility||'-')+'　<b>'+T.region+'</b>：'+esc(d.regionAvailability||'-')+'</p>'
-        +(d.riskNote?'<p class="kv"><b>'+T.risk+'</b>：'+esc(d.riskNote)+'</p>':'')
-        +(d.sourceQuote?'<blockquote>'+esc(d.sourceQuote)+'</blockquote>':'')
+        +(d.riskNote?'<p class="kv"><b>'+T.risk+'</b>：'+escL(d.riskNote)+'</p>':'')
+        +(d.sourceQuote?'<blockquote>'+escL(d.sourceQuote)+'</blockquote>':'')
         +'<p class="src">'+T.tier+esc(d.sourceTier||'')+' · <a href="'+esc(d.sourceUrl)+'" target="_blank" rel="noopener">'+T.open+' ↗</a></p></details>';
       var perma=(EN?'en/deal/':'deal/')+d.id+'/';
       return '<article class="card">'
         +'<button class="fav'+(favs.has(d.id)?' on':'')+'" data-fav="'+d.id+'" title="'+T.favTitle+'">★</button>'
         +'<h3><a href="'+BASE+perma+'">'+highlight(d.title)+'</a></h3>'
-        +'<p class="benefit">'+esc(d.benefit)+'</p>'
+        +'<p class="benefit">'+escL(d.benefit)+'</p>'
         +'<p class="meta">'+meta+'</p>'
         +detail+'</article>';
     }).join('');
