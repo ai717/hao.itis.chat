@@ -1,7 +1,18 @@
 {
   "site": "AI薅羊毛日报",
-  "exportedAt": "2026-11-16T10:10:39.000Z",
+  "exportedAt": "2026-11-17T01:58:20.000Z",
   "issues": [
+    {
+      "dealCount": 22,
+      "id": 18,
+      "kind": "main",
+      "label": "2026-11-17 主刊",
+      "status": "published",
+      "summary": "第18期：S级 16 条（AI/软件 4 条 · 海外 1 条 · 免费Token 11 条），新分类：Crypto 1 条 · U卡 1 条 · 海外银行 1 条 · VPS云服务 2 条；Pi 生成 22 条 / 人工兜底 0 条。注：懒猫新增的 AI Ping 一条因官网域名已成停放页无法核验，已剔除。",
+      "startedAt": "2026-11-17T00:58:41.280Z",
+      "finishedAt": "2026-11-17T01:12:29.281Z",
+      "error": null
+    },
     {
       "id": 16,
       "kind": "main",
@@ -4073,6 +4084,259 @@
         "登录或创建 Google 账号，填写账单地址并绑定付款方式验证身份",
         "完成注册后自动获得 $300 额度"
       ]
+    },
+    {
+      "benefit": "首次授权模型推理接入点获冷启动免费资源包，每日最高采集5M tokens推理数据，次日发放等量有效期30天免费资源包",
+      "category": "freetoken",
+      "costType": "free",
+      "deadline": null,
+      "eligibility": "火山引擎用户，需完成实名认证并授权模型推理接入点参与协作奖励计划",
+      "id": 172,
+      "regionAvailability": "全球可用",
+      "riskNote": "参与即授权推理数据（匿名化加密后）用于火山引擎模型优化，可随时撤回授权；免费资源包有效期仅30天，逾期作废；部分模型已退出计划，以活动页公示名单为准",
+      "sourceQuote": "信源：懒猫 AI。官方文档：首次授权某模型的推理接入点，立即得到该模型的冷启动免费资源包；之后每天最多采集每个模型 5M tokens 的推理数据，次日发放等量、有效期 30 天的免费资源包",
+      "sourceTier": "A",
+      "sourceUrl": "https://lanmao.ai/go/volcengine-ark-collaboration-reward",
+      "status": "进行中",
+      "steps": [
+        "在火山方舟控制台授权目标模型推理接入点加入协作奖励计划",
+        "运行推理任务产生tokens数据（每模型每日上限5M tokens）",
+        "次日自动发放等量免费资源包，有效期30天"
+      ],
+      "subcategory": "AI额度",
+      "tier": "S",
+      "title": "火山方舟协作奖励计划：首次授权得冷启动包+每日5M tokens免费额度",
+      "discoveredAt": "2026-11-17T01:12:29.196Z"
+    },
+    {
+      "benefit": "登录即得 1 亿 Tokens，每账号限领一次",
+      "category": "freetoken",
+      "costType": "free",
+      "deadline": "2026-11-22T00:00:00.000Z",
+      "eligibility": "所有智谱账号用户均可参与",
+      "id": 173,
+      "regionAvailability": "全球可用",
+      "riskNote": "Tokens 于 11月22日 23:59（北京时间）过期作废；免绑卡，无自动续费风险；金额以官方X公告为准，官网首页未列出该活动",
+      "sourceQuote": "信源：赛博鸡蛋。11 月 16–22 日（北京时间）登录 AutoClaw，领取 1 亿 Tokens。每个账号只能领一次。Tokens 11 月 22 日 23:59（北京时间）过期，过期作废。",
+      "sourceTier": "C",
+      "sourceUrl": "https://autoclaw.z.ai/",
+      "status": "进行中",
+      "steps": [
+        "11月16-22日（北京时间）登录智谱AutoClaw官网或客户端",
+        "点击活动页面“领取”按钮",
+        "Tokens 自动到账，11月22日 23:59 前使用"
+      ],
+      "subcategory": "AI额度",
+      "tier": "S",
+      "title": "智谱AutoClaw 登录领 1 亿 Tokens",
+      "discoveredAt": "2026-11-17T01:12:29.196Z"
+    },
+    {
+      "benefit": "注册 Pretrial 账号即得 $25 AI 额度，可调用 Kimi K3、GLM-5.3、DeepSeek V4.1 Flash 等模型",
+      "category": "freetoken",
+      "costType": "free",
+      "deadline": null,
+      "eligibility": "Telnyx 新用户",
+      "id": 174,
+      "regionAvailability": "全球可用",
+      "riskNote": "无需绑卡、无需充值；Pretrial 账号只限 AI 产品，升级完整账号后 $25 AI 额度会被替换为 $5 通用额度；额度有效期以官方为准",
+      "sourceQuote": "信源：赛博鸡蛋。Telnyx 新用户注册 Pretrial 账号即得 $25 AI 额度，不用绑卡、不用充值，注册后自动到账。官方定价页列出 Kimi K3、GLM-5.3、DeepSeek V4.1 Flash 等模型按 Token 计费。",
+      "sourceTier": "C",
+      "sourceUrl": "https://telnyx.com/pricing/inference-api",
+      "status": "进行中",
+      "steps": [
+        "访问 Telnyx 官网注册新账号",
+        "开通 Pretrial 试用账号",
+        "获得 $25 AI 推理额度，直接调用 Inference 接口"
+      ],
+      "subcategory": "AI额度",
+      "tier": "S",
+      "title": "Telnyx 新用户免费领 $25 AI 推理额度",
+      "discoveredAt": "2026-11-17T01:12:29.196Z"
+    },
+    {
+      "benefit": "注册即得$5额度，可调用FLUX、MiniMax H3等100+开源模型",
+      "category": "freetoken",
+      "costType": "free",
+      "deadline": null,
+      "eligibility": "新用户",
+      "id": 175,
+      "regionAvailability": "全球可用",
+      "riskNote": "额度 30 天内有效，过期作废；免费账号的语音合成每天最多 300 次请求",
+      "sourceQuote": "信源：赛博鸡蛋。注册 deAPI 账号即得 $5 免费额度，一个 API 调用 FLUX、MiniMax H3、LTX Video 等 100+ 开源模型，生图、视频、语音、转录都能试，免绑卡。$5 额度自注册起 30 天内有效",
+      "sourceTier": "C",
+      "sourceUrl": "https://deapi.ai/",
+      "status": "进行中",
+      "steps": [
+        "访问 deAPI 官网注册新账号",
+        "注册完成自动获得 $5 免费额度",
+        "使用统一 API 直接调用 100+ 开源模型"
+      ],
+      "subcategory": "生成额度",
+      "tier": "S",
+      "title": "deAPI：新用户注册送$5免费额度，免绑卡调用100+开源模型",
+      "discoveredAt": "2026-11-17T01:12:29.196Z"
+    },
+    {
+      "benefit": "免费获得10点额度，激活后30天内可免费调用DeepSeek V4、GLM-5.3、Qwen3.8、Gemma 4等开源模型",
+      "category": "freetoken",
+      "costType": "free",
+      "deadline": null,
+      "eligibility": "所有开发者均可免费加入AMD AI开发者计划",
+      "id": 176,
+      "regionAvailability": "全球可用",
+      "riskNote": "额度激活后仅有效30天；免绑卡，无自动续费风险；与中国站 Token Factory 是两个不同计划，不要混用",
+      "sourceQuote": "信源：赛博鸡蛋。加入计划就能免费领一个 API Key，自带 10 点额度，激活后 30 天内可以调用跑在 AMD GPU 上的一批开源模型，接口兼容 OpenAI 格式，不需要绑卡",
+      "sourceTier": "C",
+      "sourceUrl": "https://developer.amd.com/ai-developer-program/",
+      "status": "进行中",
+      "steps": [
+        "访问AMD AI开发者计划官网注册/登录AMD账号",
+        "加入AMD AI开发者计划并进入 Token Lab",
+        "生成 API Key（tl- 开头），通过OpenAI兼容接口调用模型"
+      ],
+      "subcategory": "AI额度",
+      "tier": "S",
+      "title": "AMD Token Lab：加入AI开发者计划领10点额度，30天免费调用DeepSeek V4/GLM-5.3等模型",
+      "discoveredAt": "2026-11-17T01:12:29.196Z"
+    },
+    {
+      "benefit": "新用户注册即得$3免费调用额度，永不过期",
+      "category": "ai",
+      "costType": "free",
+      "deadline": null,
+      "eligibility": "新用户",
+      "id": 177,
+      "regionAvailability": "全球可用",
+      "riskNote": "官网宣传$10但实测到账$3，以实际到账为准；Veo 3 一次 $7，$3 额度不够跑一次",
+      "sourceQuote": "信源：赛博鸡蛋。新用户注册即得 $3 免费调用额度。官网首页宣传是 $10，Jack 实测注册到账 $3，以实际到账为准。额度永不过期。",
+      "sourceTier": "C",
+      "sourceUrl": "https://vmodel.ai/pricing/",
+      "status": "进行中",
+      "steps": [
+        "访问VModel官网注册新账号",
+        "完成注册后自动到账$3免费额度",
+        "使用额度体验Seedance 2.5、Kling、Nano Banana等126个模型"
+      ],
+      "subcategory": "生成额度",
+      "tier": "S",
+      "title": "VModel新用户注册送$3永久免费额度，可试126个视频图像模型",
+      "discoveredAt": "2026-11-17T01:12:29.196Z"
+    },
+    {
+      "benefit": "每月免费获得 5 份会议转写，含 AI 摘要、智能搜索、会议教练，支持 20+ 语言",
+      "category": "overseas",
+      "costType": "free",
+      "deadline": null,
+      "eligibility": "任意用户均可注册使用，无需信用卡",
+      "id": 178,
+      "regionAvailability": "全球可用",
+      "riskNote": "免费档每月限额 5 份会议，超额需升级付费；敏感会议建议自行评估隐私政策",
+      "sourceQuote": "信源：懒猫 AI。Free 档 $0：每月 5 份会议转写，含 AI 摘要、搜索、会议教练，支持 20+ 语言和 Windows、macOS、Android、iOS 应用；永久免费，无需信用卡。官方定价页：$0 Always free, no credit card required.",
+      "sourceTier": "A",
+      "sourceUrl": "https://lanmao.ai/go/read-ai-free-5-meetings",
+      "status": "进行中",
+      "steps": [
+        "访问 Read AI 官网点击“Get Started Free”注册账号",
+        "授权连接 Google/Outlook 日历或 Zoom/Teams/Meet 会议平台",
+        "开会时自动加入或上传录音，会后即可查看转写、摘要与教练建议"
+      ],
+      "subcategory": "会员试用",
+      "tier": "S",
+      "title": "Read AI 免费档：每月 5 份会议转写 + AI 摘要/教练，永久 $0 无需绑卡",
+      "discoveredAt": "2026-11-17T01:12:29.196Z"
+    },
+    {
+      "benefit": "新账号可获 $300 云额度（30 天内使用），过期后仍保留 Always Free 服务含 Arm VM",
+      "category": "cloud",
+      "costType": "card",
+      "deadline": null,
+      "eligibility": "仅限 Oracle Cloud 支持的国家/地区新注册用户",
+      "id": 179,
+      "regionAvailability": "全球可用",
+      "riskNote": "仅部分国家可用；需绑卡验证；$300 额度 30 天过期作废；Always Free 资源有配额限制，2026 年 Arm 额度已从 4 OCPU/24GB 减半为 2 OCPU/12GB",
+      "sourceQuote": "Build, test and deploy applications on the Cloud with always free cloud services and get $300 in credit towards other cloud services. Oracle Cloud Free Tier starts with a US$300 cloud credit that you have 30 days to use on all OCI services, in addition to Always Free Services.",
+      "sourceTier": "A",
+      "sourceUrl": "https://www.oracle.com/cloud/free/",
+      "status": "进行中",
+      "steps": [
+        "访问 Oracle Cloud 官方免费页注册新账号",
+        "完成身份验证并提供支付方式验证",
+        "激活后即获 $300 试用额度，30 天内使用，之后自动转入 Always Free 套餐"
+      ],
+      "subcategory": "云与开发",
+      "tier": "pick",
+      "title": "Oracle Cloud 新账号领 $300 云额度 + 永久免费 Arm 实例",
+      "discoveredAt": "2026-11-17T01:12:29.196Z"
+    },
+    {
+      "benefit": "首次单笔购买 $50 以上加密货币，可获随机 $10 至 $2000 比特币奖励（99% 用户落在 $10–$100 区间）",
+      "category": "crypto",
+      "costType": "qualified",
+      "deadline": null,
+      "eligibility": "仅限美国用户，且为 Coinbase 新用户（首次购买）",
+      "id": 180,
+      "regionAvailability": "仅限某国(美国)",
+      "riskNote": "仅限美国地区，国内读者大概率不符合资格；奖励随机发放，大概率仅 $10；需先花 $50 购买加密货币，币价有波动风险，非无门槛白嫖",
+      "sourceQuote": "Coinbase ranks first on its $2,000 maximum, but the reward is chosen at random. Under its new user incentive terms, a new US customer whose first single crypto purchase is $50 or more gets a random bitcoin reward between $10 and $2,000. Coinbase says 99% of new users get $10 to $100.",
+      "sourceTier": "B",
+      "sourceUrl": "https://www.cultofmoney.com/best-crypto-bonus-offers/",
+      "status": "进行中",
+      "steps": [
+        "注册 Coinbase 并完成身份验证（KYC）",
+        "绑定支付方式（银行卡/借记卡/银行转账）",
+        "单笔购买 $50 以上任意加密货币，奖励自动发放至账户"
+      ],
+      "subcategory": "",
+      "tier": "pick",
+      "title": "Coinbase 新用户首购 $50+ 送随机 $10–$2000 比特币",
+      "discoveredAt": "2026-11-17T01:12:29.196Z"
+    },
+    {
+      "benefit": "新客户开户 90 天内直接存款累计 $1,000+ 可得 $400 奖金",
+      "category": "bank",
+      "costType": "qualified",
+      "deadline": "2027-01-27T00:00:00.000Z",
+      "eligibility": "美国居民（阿拉斯加、夏威夷、波多黎各除外），持有效美国身份证件，且能设置符合条件的直接存款；仅限新客户",
+      "id": 181,
+      "regionAvailability": "仅限某国(美国)",
+      "riskNote": "优惠截止 2027-01-27；仅限美国本土，国内读者大概率不符合资格，需美国身份与美国工资类直接存款；账户若有月服务费需满足豁免条件否则抵消收益；关户 6 个月内奖金会被扣回",
+      "sourceQuote": "New Chase checking customers can receive $400 when you open a Chase Total Checking® account and make direct deposits totaling $1,000 or more within 90 days of coupon enrollment. (Expires 01/27/2027)",
+      "sourceTier": "B",
+      "sourceUrl": "https://www.bankdealguy.com/chase-total-checking-bonus/",
+      "status": "进行中",
+      "steps": [
+        "通过优惠链接在线或到分行开立 Chase Total Checking 账户",
+        "在开户后 90 天内完成累计 $1,000 以上的合格直接存款（如工资、政府福利等）",
+        "奖金将在条件满足后 15 天内自动存入账户"
+      ],
+      "subcategory": "",
+      "tier": "pick",
+      "title": "Chase Total Checking 新户奖励：满足直存条件领 $400",
+      "discoveredAt": "2026-11-17T01:12:29.196Z"
+    },
+    {
+      "benefit": "新用户获$5消费奖励（仅限消费抵扣），虚拟卡开卡费$10/张，实体卡$100/张",
+      "category": "ucard",
+      "costType": "paid",
+      "deadline": null,
+      "eligibility": "非美国、中国内地等47个受限地区的新用户，需完成 KYC",
+      "id": 182,
+      "regionAvailability": "全球可用",
+      "riskNote": "需先付 $10 开卡费才能领 $5 消费奖励，奖励不可提现、不可抵开卡费；非卡币种消费收 2.2% 费用（1.2%+1%加密转换费），无基础返现；美国、中国内地等 47 个地区不可办卡，国内读者基本办不了",
+      "sourceQuote": "RedotPay issues a $10 virtual card, but non-card-currency purchases cost 1.2% plus 1% crypto conversion and its fee pages list no cashback. The virtual card costs $10 and the physical card $100; the $5 welcome reward can only be used for spending.",
+      "sourceTier": "B",
+      "sourceUrl": "https://kkinvesting.io/en/posts/best-crypto-credit-cards-2026/",
+      "status": "进行中",
+      "steps": [
+        "访问RedotPay官网/APP注册新账户",
+        "完成KYC身份验证",
+        "申请虚拟卡（$10）或实体卡（$100），消费激活得$5奖励"
+      ],
+      "subcategory": "",
+      "tier": "pick",
+      "title": "RedotPay虚拟卡：新用户享$5消费奖励，虚拟卡开卡费$10",
+      "discoveredAt": "2026-11-17T01:12:29.196Z"
     }
   ]
 }

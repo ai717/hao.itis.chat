@@ -1,7 +1,18 @@
 {
   "site": "AI Deals Daily",
-  "exportedAt": "2026-11-16T10:10:39.000Z",
+  "exportedAt": "2026-11-17T01:58:20.000Z",
   "issues": [
+    {
+      "dealCount": 22,
+      "id": 18,
+      "kind": "main",
+      "label": "2026-11-17 Main Issue",
+      "status": "published",
+      "summary": "Issue 18: S-grade 16 items (AI/Software 4 items · Overseas 1 item · Free Token 11 items), new categories: Crypto 1 item · U Card 1 item · Overseas Bank 1 item · VPS Cloud Service 2 items; Pi generated 22 items / Manual fallback 0 items. Note: Lazy Cat's newly added AI Ping item was removed because its official website domain has become a parked page and could not be verified.",
+      "startedAt": "2026-11-17T00:58:41.280Z",
+      "finishedAt": "2026-11-17T01:12:29.281Z",
+      "error": null
+    },
     {
       "id": 16,
       "kind": "main",
@@ -4074,6 +4085,259 @@
         "Sign in or create a Google account, fill in billing address and bind payment method to verify identity",
         "After completing registration, automatically receive $300 credit"
       ]
+    },
+    {
+      "benefit": "On first authorization of model inference endpoint, get cold-start free resource package; collect up to 5M tokens inference data daily, next day receive equivalent free resource package valid for 30 days",
+      "category": "freetoken",
+      "costType": "free",
+      "deadline": null,
+      "eligibility": "Volcano Engine users, must complete real-name verification and authorize model inference endpoint to join collaboration reward program",
+      "id": 172,
+      "regionAvailability": "Available worldwide",
+      "riskNote": "Participation authorizes inference data (anonymized and encrypted) for Volcano Engine model optimization, can withdraw authorization anytime; free resource package valid only 30 days, expires if overdue; some models have exited program, refer to activity page announcement list",
+      "sourceQuote": "信源：懒猫 AI。官方文档：首次授权某模型的推理接入点，立即得到该模型的冷启动免费资源包；之后每天最多采集每个模型 5M tokens 的推理数据，次日发放等量、有效期 30 天的免费资源包",
+      "sourceTier": "A",
+      "sourceUrl": "https://lanmao.ai/go/volcengine-ark-collaboration-reward",
+      "status": "进行中",
+      "steps": [
+        "Authorize target model inference endpoint in Volcano Ark console to join collaboration reward program",
+        "Run inference tasks to generate tokens data (daily limit 5M tokens per model)",
+        "Next day automatically receive equivalent free resource package, valid for 30 days"
+      ],
+      "subcategory": "AI Credits",
+      "tier": "S",
+      "title": "Volcano Ark Collaboration Reward Program: Get cold-start package on first authorization + daily 5M tokens free quota",
+      "discoveredAt": "2026-11-17T01:12:29.196Z"
+    },
+    {
+      "id": 173,
+      "title": "Z.ai AutoClaw Login to Claim 100 million Tokens",
+      "benefit": "Log in to get 100 million Tokens, limit one claim per account",
+      "eligibility": "All Z.ai account users can participate",
+      "regionAvailability": "Available worldwide",
+      "riskNote": "Tokens expire and become void on November 22 at 23:59 (Beijing time); no card binding required, no auto-renewal risk; amount subject to official X announcement, not listed on official website homepage",
+      "steps": [
+        "Log in to Z.ai AutoClaw official website or client November 16-22 (Beijing time)",
+        "Click the 'Claim' button on the event page",
+        "Tokens credited automatically, use before November 22 23:59"
+      ],
+      "subcategory": "AI Credits",
+      "category": "freetoken",
+      "tier": "S",
+      "costType": "free",
+      "deadline": "2026-11-22T00:00:00.000Z",
+      "discoveredAt": "2026-11-17T01:12:29.196Z",
+      "sourceQuote": "信源：赛博鸡蛋。11 月 16–22 日（北京时间）登录 AutoClaw，领取 1 亿 Tokens。每个账号只能领一次。Tokens 11 月 22 日 23:59（北京时间）过期，过期作废。",
+      "sourceTier": "C",
+      "sourceUrl": "https://autoclaw.z.ai/",
+      "status": "进行中"
+    },
+    {
+      "id": 174,
+      "title": "Telnyx new users get free $25 AI inference credits",
+      "benefit": "Register a Pretrial account to get $25 AI credits, can call Kimi K3, GLM-5.3, DeepSeek V4.1 Flash and other models",
+      "category": "freetoken",
+      "costType": "free",
+      "deadline": null,
+      "eligibility": "Telnyx new users",
+      "regionAvailability": "Available worldwide",
+      "riskNote": "No card binding required, no deposit required; Pretrial account limited to AI products, after upgrading to full account the $25 AI credits will be replaced with $5 general credits; credit validity subject to official terms",
+      "sourceQuote": "信源：赛博鸡蛋。Telnyx 新用户注册 Pretrial 账号即得 $25 AI 额度，不用绑卡、不用充值，注册后自动到账。官方定价页列出 Kimi K3、GLM-5.3、DeepSeek V4.1 Flash 等模型按 Token 计费。",
+      "sourceTier": "C",
+      "sourceUrl": "https://telnyx.com/pricing/inference-api",
+      "status": "进行中",
+      "steps": [
+        "Visit Telnyx official website to register new account",
+        "Activate Pretrial trial account",
+        "Get $25 AI inference credits, directly call Inference API"
+      ],
+      "subcategory": "AI Credits",
+      "tier": "S",
+      "discoveredAt": "2026-11-17T01:12:29.196Z"
+    },
+    {
+      "benefit": "Get $5 credit on registration, can call FLUX, MiniMax H3 and 100+ open-source models",
+      "category": "freetoken",
+      "costType": "free",
+      "deadline": null,
+      "eligibility": "New users",
+      "id": 175,
+      "regionAvailability": "Available worldwide",
+      "riskNote": "Credit valid for 30 days, expires thereafter; free accounts limited to 300 TTS requests per day",
+      "sourceQuote": "信源：赛博鸡蛋。注册 deAPI 账号即得 $5 免费额度，一个 API 调用 FLUX、MiniMax H3、LTX Video 等 100+ 开源模型，生图、视频、语音、转录都能试，免绑卡。$5 额度自注册起 30 天内有效",
+      "sourceTier": "C",
+      "sourceUrl": "https://deapi.ai/",
+      "status": "进行中",
+      "steps": [
+        "Visit deAPI official website to register new account",
+        "Automatically receive $5 free credit upon registration completion",
+        "Use unified API to directly call 100+ open-source models"
+      ],
+      "subcategory": "Generation Credits",
+      "tier": "S",
+      "title": "deAPI: New users get $5 free credit on registration, no card required to call 100+ open-source models",
+      "discoveredAt": "2026-11-17T01:12:29.196Z"
+    },
+    {
+      "id": 176,
+      "title": "AMD Token Lab: Join AI Developer Program for 10 credits, 30 days free access to DeepSeek V4/GLM-5.3 and other models",
+      "benefit": "Get 10 free credits, activate to call DeepSeek V4, GLM-5.3, Qwen3.8, Gemma 4 and other open-source models free for 30 days",
+      "category": "freetoken",
+      "tier": "S",
+      "costType": "free",
+      "eligibility": "All developers can join AMD AI Developer Program for free",
+      "regionAvailability": "Available worldwide",
+      "riskNote": "Credits valid for 30 days after activation; no card binding required, no auto-renewal risk; separate from China-site Token Factory, do not mix",
+      "steps": [
+        "Visit AMD AI Developer Program website to register/login AMD account",
+        "Join AMD AI Developer Program and enter Token Lab",
+        "Generate API Key (tl- prefix), call models via OpenAI-compatible interface"
+      ],
+      "subcategory": "AI Credits",
+      "deadline": null,
+      "discoveredAt": "2026-11-17T01:12:29.196Z",
+      "sourceQuote": "信源：赛博鸡蛋。加入计划就能免费领一个 API Key，自带 10 点额度，激活后 30 天内可以调用跑在 AMD GPU 上的一批开源模型，接口兼容 OpenAI 格式，不需要绑卡",
+      "sourceTier": "C",
+      "sourceUrl": "https://developer.amd.com/ai-developer-program/",
+      "status": "进行中"
+    },
+    {
+      "benefit": "New users get $3 free calling credits upon registration, never expires",
+      "category": "ai",
+      "costType": "free",
+      "deadline": null,
+      "eligibility": "New users",
+      "id": 177,
+      "regionAvailability": "Available worldwide",
+      "riskNote": "Official site advertises $10 but actual testing received $3, subject to actual receipt; Veo 3 costs $7 per run, $3 credits not enough for one run",
+      "sourceQuote": "信源：赛博鸡蛋。新用户注册即得 $3 免费调用额度。官网首页宣传是 $10，Jack 实测注册到账 $3，以实际到账为准。额度永不过期。",
+      "sourceTier": "C",
+      "sourceUrl": "https://vmodel.ai/pricing/",
+      "status": "进行中",
+      "steps": [
+        "Visit VModel official website to register new account",
+        "After registration completes, $3 free credits automatically credited",
+        "Use credits to experience 126 models including Seedance 2.5, Kling, Nano Banana"
+      ],
+      "subcategory": "Generation Credits",
+      "tier": "S",
+      "title": "VModel new user registration gives $3 permanent free credits, can try 126 video/image models",
+      "discoveredAt": "2026-11-17T01:12:29.196Z"
+    },
+    {
+      "id": 178,
+      "title": "Read AI Free Tier: 5 meeting transcripts per month + AI summary/coach, permanently $0 no card required",
+      "benefit": "Get 5 free meeting transcripts per month, including AI summary, smart search, meeting coach, supports 20+ languages",
+      "category": "overseas",
+      "costType": "free",
+      "deadline": null,
+      "eligibility": "Any user can register and use, no credit card required",
+      "regionAvailability": "Available worldwide",
+      "riskNote": "Free tier limited to 5 meetings per month, upgrade required for excess; for sensitive meetings, assess privacy policy yourself",
+      "sourceQuote": "信源：懒猫 AI。Free 档 $0：每月 5 份会议转写，含 AI 摘要、搜索、会议教练，支持 20+ 语言和 Windows、macOS、Android、iOS 应用；永久免费，无需信用卡。官方定价页：$0 Always free, no credit card required.",
+      "sourceTier": "A",
+      "sourceUrl": "https://lanmao.ai/go/read-ai-free-5-meetings",
+      "status": "进行中",
+      "steps": [
+        "Visit Read AI website, click 'Get Started Free' to register account",
+        "Authorize connection to Google/Outlook calendar or Zoom/Teams/Meet meeting platforms",
+        "Automatically joins or uploads recording during meetings, view transcripts, summaries, and coach suggestions after meeting"
+      ],
+      "subcategory": "Membership Trial",
+      "tier": "S",
+      "discoveredAt": "2026-11-17T01:12:29.196Z"
+    },
+    {
+      "id": 179,
+      "title": "Oracle Cloud new accounts get $300 cloud credit + permanent free Arm instances",
+      "benefit": "New accounts can get $300 cloud credit (use within 30 days), Always Free services including Arm VM retained after expiry",
+      "category": "cloud",
+      "subcategory": "Cloud & Dev",
+      "tier": "pick",
+      "costType": "card",
+      "eligibility": "Only new users registering from Oracle Cloud supported countries/regions",
+      "regionAvailability": "Available worldwide",
+      "riskNote": "Only available in some countries; requires card verification; $300 credit expires after 30 days; Always Free resources have quota limits, 2026 Arm quota halved from 4 OCPU/24GB to 2 OCPU/12GB",
+      "steps": [
+        "Visit Oracle Cloud official free page to register new account",
+        "Complete identity verification and provide payment method verification",
+        "After activation get $300 trial credit, use within 30 days, then automatically switch to Always Free plan"
+      ],
+      "deadline": null,
+      "discoveredAt": "2026-11-17T01:12:29.196Z",
+      "sourceQuote": "Build, test and deploy applications on the Cloud with always free cloud services and get $300 in credit towards other cloud services. Oracle Cloud Free Tier starts with a US$300 cloud credit that you have 30 days to use on all OCI services, in addition to Always Free Services.",
+      "sourceTier": "A",
+      "sourceUrl": "https://www.oracle.com/cloud/free/",
+      "status": "进行中"
+    },
+    {
+      "benefit": "On your first single purchase of $50 or more in crypto, receive a random bitcoin reward of $10 to $2000 (99% of users fall in the $10–$100 range)",
+      "category": "crypto",
+      "costType": "qualified",
+      "deadline": null,
+      "eligibility": "US users only, and new Coinbase customers (first purchase)",
+      "id": 180,
+      "regionAvailability": "US only",
+      "riskNote": "US only; readers in China are unlikely to qualify; reward is random, most likely just $10; you must first spend $50 buying crypto, and crypto prices carry volatility risk — not a no-strings-attached freebie",
+      "sourceQuote": "Coinbase ranks first on its $2,000 maximum, but the reward is chosen at random. Under its new user incentive terms, a new US customer whose first single crypto purchase is $50 or more gets a random bitcoin reward between $10 and $2,000. Coinbase says 99% of new users get $10 to $100.",
+      "sourceTier": "B",
+      "sourceUrl": "https://www.cultofmoney.com/best-crypto-bonus-offers/",
+      "status": "进行中",
+      "steps": [
+        "Sign up for Coinbase and complete identity verification (KYC)",
+        "Link a payment method (bank card/debit card/bank transfer)",
+        "Make a single purchase of $50 or more in any cryptocurrency; the reward is automatically credited to your account"
+      ],
+      "subcategory": "",
+      "tier": "pick",
+      "title": "Coinbase new-user first purchase of $50+ gets a random $10–$2000 bitcoin reward",
+      "discoveredAt": "2026-11-17T01:12:29.196Z"
+    },
+    {
+      "benefit": "New customers can get a $400 bonus with direct deposits totaling $1,000+ within 90 days of opening the account",
+      "category": "bank",
+      "costType": "qualified",
+      "deadline": "2027-01-27T00:00:00.000Z",
+      "eligibility": "US residents (excluding Alaska, Hawaii, and Puerto Rico) with valid US identification who can set up qualifying direct deposits; new customers only",
+      "id": 181,
+      "regionAvailability": "US only",
+      "riskNote": "Offer ends 2027-01-27; US only, readers in China likely do not qualify; requires US identity and US payroll-type direct deposits; if the account has a monthly service fee, waiver requirements must be met or it will offset the benefit; closing the account within 6 months will result in the bonus being clawed back",
+      "sourceQuote": "New Chase checking customers can receive $400 when you open a Chase Total Checking® account and make direct deposits totaling $1,000 or more within 90 days of coupon enrollment. (Expires 01/27/2027)",
+      "sourceTier": "B",
+      "sourceUrl": "https://www.bankdealguy.com/chase-total-checking-bonus/",
+      "status": "进行中",
+      "steps": [
+        "Open a Chase Total Checking account online via the offer link or at a branch",
+        "Within 90 days of opening, complete qualifying direct deposits totaling $1,000 or more (e.g., payroll, government benefits)",
+        "The bonus will be automatically deposited into the account within 15 days after the conditions are met"
+      ],
+      "subcategory": "",
+      "tier": "pick",
+      "title": "Chase Total Checking new account bonus: get $400 by meeting direct deposit requirements",
+      "discoveredAt": "2026-11-17T01:12:29.196Z"
+    },
+    {
+      "benefit": "New users get a $5 spending reward (redeemable only for spending), virtual card issuance fee $10 per card, physical card $100 per card",
+      "category": "ucard",
+      "costType": "paid",
+      "deadline": null,
+      "eligibility": "New users in regions other than the 47 restricted regions such as the US and mainland China; KYC required",
+      "id": 182,
+      "regionAvailability": "Available worldwide",
+      "riskNote": "Must pay the $10 card issuance fee first to claim the $5 spending reward; the reward cannot be withdrawn or used toward the issuance fee; non-card-currency spending incurs a 2.2% fee (1.2% + 1% crypto conversion fee), with no basic cashback; cards cannot be issued in 47 regions including the US and mainland China, so domestic readers basically cannot apply",
+      "sourceQuote": "RedotPay issues a $10 virtual card, but non-card-currency purchases cost 1.2% plus 1% crypto conversion and its fee pages list no cashback. The virtual card costs $10 and the physical card $100; the $5 welcome reward can only be used for spending.",
+      "sourceTier": "B",
+      "sourceUrl": "https://kkinvesting.io/en/posts/best-crypto-credit-cards-2026/",
+      "status": "进行中",
+      "steps": [
+        "Visit the RedotPay website/app to register a new account",
+        "Complete KYC verification",
+        "Apply for a virtual card ($10) or physical card ($100); spend to activate and get the $5 reward"
+      ],
+      "subcategory": "",
+      "tier": "pick",
+      "title": "RedotPay virtual card: new users get a $5 spending reward, virtual card issuance fee $10",
+      "discoveredAt": "2026-11-17T01:12:29.196Z"
     }
   ]
 }
