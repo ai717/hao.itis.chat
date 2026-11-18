@@ -15,6 +15,8 @@ const SITE = 'https://hao.itis.chat';
 function readJson(p){ return JSON.parse(fs.readFileSync(path.join(ROOT,p),'utf8')); }
 function write(p,content){ const fp=path.join(ROOT,p); fs.mkdirSync(path.dirname(fp),{recursive:true}); fs.writeFileSync(fp,content,'utf8'); }
 function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function linkify(s){ return s.replace(/(https?:\/\/[^\s<>"']+)/g,function(u){ var m=u.match(/[。，、；：！？）】」』.,;:!?)]+$/); var tail=m?m[0]:''; if(tail) u=u.slice(0,-tail.length); return '<a class="inlink" href="'+u+'" target="_blank" rel="noopener">'+u+'</a>'+tail; }); }
+function escL(s){ return linkify(esc(s)); }
 
 const zh = readJson('data.json');
 const en = readJson('data-en.json');
@@ -100,10 +102,10 @@ function dealPage(d, lang){
       free:'FREE', expired:'Expired', home:'AI Deals Daily'}
     : {back:'← 全部线报', steps:'领取步骤', risk:'风险提示', elig:'门槛', region:'地区',
       deadline:'截止', none:'长期/未注明截止', source:'出处原文', open:'打开原页面', tier:'信源 ', free:'免费', expired:'已失效', home:'AI薅羊毛日报'};
-  const CAT = isEn ? {ai:'AI & Software', overseas:'Global Deals', gaming:'Games', digital:'Software', ecommerce:'E-commerce'}
-    : {ai:'AI/软件/会员', overseas:'海外精选', gaming:'游戏', digital:'数码软件', ecommerce:'电商'};
+  const CAT = isEn ? {ai:'AI & Software', freetoken:'Free Tokens', crypto:'Crypto', ucard:'U Cards', bank:'Global Banks', cloud:'Cloud & VPS', overseas:'Global Deals', gaming:'Games', digital:'Software', ecommerce:'E-commerce'}
+    : {ai:'AI/软件/会员', freetoken:'免费Token', crypto:'Crypto', ucard:'U卡', bank:'海外银行', cloud:'VPS云服务', overseas:'海外精选', gaming:'游戏', digital:'数码软件', ecommerce:'电商'};
   const expired = d.deadline && new Date(d.deadline).getTime()<Date.now();
-  const steps = (d.steps||[]).map(s=>'<li>'+esc(s)+'</li>').join('');
+  const steps = (d.steps||[]).map(s=>'<li>'+escL(s)+'</li>').join('');
   return '<!DOCTYPE html>\n<html lang="'+(isEn?'en':'zh-CN')+'">\n<head>\n'
     +'<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-573LL74P"></script>\n'
     +'<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag(\'js\', new Date());\n</script>\n'
@@ -127,18 +129,18 @@ function dealPage(d, lang){
     +'<script type="application/ld+json">\n'+JSON.stringify(ld)+'\n</script>\n</head>\n<body>\n<div class="wrap deal-page">\n'
     +'<a class="back" href="../../">'+L.back+'</a>\n'
     +'<h1>'+esc(d.title)+'</h1>\n'
-    +'<p class="benefit">'+esc(d.benefit)+'</p>\n'
+    +'<p class="benefit">'+escL(d.benefit)+'</p>\n'
     +'<p class="meta">'+(d.costType==='free'?'<span class="free">'+L.free+'</span> · ':'')+esc(CAT[d.category]||d.category)+' · '+esc(d.regionAvailability||'')+' · '+L.deadline+'：'+(d.deadline?esc(d.deadline.slice(0,10))+(expired?' · '+L.expired:''):L.none)+'</p>\n'
     +(steps?'<h2>'+L.steps+'</h2><ol>'+steps+'</ol>\n':'')
     +'<p class="kv"><b>'+L.elig+'</b>：'+esc(d.eligibility||'-')+'</p>\n'
     +'<p class="kv"><b>'+L.region+'</b>：'+esc(d.regionAvailability||'-')+'</p>\n'
-    +(d.riskNote?'<p class="kv"><b>'+L.risk+'</b>：'+esc(d.riskNote)+'</p>\n':'')
-    +(d.sourceQuote?'<h2>'+L.source+'</h2><blockquote style="border-left:3px solid #9c4a38;background:#f3e6e1;padding:8px 12px;margin:10px 0">'+esc(d.sourceQuote)+'</blockquote>\n':'')
+    +(d.riskNote?'<p class="kv"><b>'+L.risk+'</b>：'+escL(d.riskNote)+'</p>\n':'')
+    +(d.sourceQuote?'<h2>'+L.source+'</h2><blockquote style="border-left:3px solid #9c4a38;background:#f3e6e1;padding:8px 12px;margin:10px 0">'+escL(d.sourceQuote)+'</blockquote>\n':'')
     +'<p class="src">'+L.tier+esc(d.sourceTier||'')+' · <a href="'+esc(d.sourceUrl)+'" target="_blank" rel="noopener">'+L.open+' ↗</a></p>\n'
     +'<footer class="site">'+L.home+' · <a href="'+SITE+'/">hao.itis.chat</a><br>\n'
     +(isEn
-      ? '<nav class="friends">Friends: <a href="https://www.moyunews.com/" target="_blank" rel="noopener">Moyu News</a> · <a href="https://muse.itis.chat/" target="_blank" rel="noopener">Muse Case</a> · <a href="https://free.itis.chat/" target="_blank" rel="noopener">itis Free</a> · <a href="https://m.ucncn.cn/" target="_blank" rel="noopener">Money Lab</a> · <a href="https://doin.win/" target="_blank" rel="noopener">Mini Games</a> · <a href="https://itis.chat/" target="_blank" rel="noopener">AI Navigation</a></nav>\n'
-      : '<nav class="friends">友情链接：<a href="https://www.moyunews.com/" target="_blank" rel="noopener">摸鱼杂货店</a> · <a href="https://muse.itis.chat/" target="_blank" rel="noopener">Muse实战案例库</a> · <a href="https://free.itis.chat/" target="_blank" rel="noopener">免费开源数字资源</a> · <a href="https://m.ucncn.cn/" target="_blank" rel="noopener">搞钱实验室</a> · <a href="https://doin.win/" target="_blank" rel="noopener">小游戏大全</a> · <a href="https://itis.chat/" target="_blank" rel="noopener">AI资源导航</a></nav>\n')
+      ? '<nav class="friends">Friends: <a href="https://www.moyunews.com/" target="_blank" rel="noopener">Moyu News</a> · <a href="https://muse.itis.chat/" target="_blank" rel="noopener">Muse Case</a> · <a href="https://grokbot.itis.chat/" target="_blank" rel="noopener">GrokBot Case</a> · <a href="https://free.itis.chat/" target="_blank" rel="noopener">itis Free</a> · <a href="https://m.ucncn.cn/" target="_blank" rel="noopener">Money Lab</a> · <a href="https://doin.win/" target="_blank" rel="noopener">Mini Games</a> · <a href="https://itis.chat/" target="_blank" rel="noopener">AI Navigation</a></nav>\n'
+      : '<nav class="friends">友情链接：<a href="https://www.moyunews.com/" target="_blank" rel="noopener">摸鱼杂货店</a> · <a href="https://muse.itis.chat/" target="_blank" rel="noopener">Muse实战案例库</a> · <a href="https://grokbot.itis.chat/" target="_blank" rel="noopener">GrokBot实战案例</a> · <a href="https://free.itis.chat/" target="_blank" rel="noopener">免费开源数字资源</a> · <a href="https://m.ucncn.cn/" target="_blank" rel="noopener">搞钱实验室</a> · <a href="https://doin.win/" target="_blank" rel="noopener">小游戏大全</a> · <a href="https://itis.chat/" target="_blank" rel="noopener">AI资源导航</a></nav>\n')
     +'</footer>\n</div>\n</body>\n</html>\n';
 }
 for (const dir of ['deal', path.join('en','deal')]) {
