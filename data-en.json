@@ -3,6 +3,17 @@
  "exportedAt": "2026-11-18T01:54:24.000Z",
  "issues": [
   {
+   "dealCount": 7,
+   "id": 21,
+   "kind": "main",
+   "label": "2026-11-19 Main Issue",
+   "status": "published",
+   "summary": "Issue 21: S-grade 5 items (AI/Software 1 · Overseas 0 · Free Token 4), New categories: Crypto 0 · U Card 0 · Overseas Bank 0 · VPS Cloud Service 3. Pi generated 8 / Human fallback 0. Note: Crypto/U Card/bank scan found no verifiable new deals (Binance Welcome Reward Issue 14 collected, OKX official no fixed amount, Coinbase Issue 18 collected), not included; Meta Muse 1B Token invitation not included due to official website inaccessible for verification and limited to US/Canada regions; Epic free games x2 Issue 20 collected.",
+   "startedAt": "2026-11-19T00:58:41.411Z",
+   "finishedAt": "2026-11-19T01:10:09.567Z",
+   "error": null
+  },
+  {
    "dealCount": 24,
    "id": 20,
    "kind": "main",
@@ -4923,6 +4934,167 @@
     "After November 19 16:00, open Epic Games Store or web store",
     "Find Alien: Isolation and Mark of the Deep in the free games section and click to get",
     "After confirming order, both games permanently added to library"
+   ]
+  },
+  {
+   "id": 208,
+   "title": "AxForge Inference API: 3M Free Serverless Tokens Every 30 Days",
+   "benefit": "Each new account receives 3M free serverless tokens every 30 days",
+   "category": "freetoken",
+   "subcategory": "AI credits",
+   "tier": "S",
+   "costType": "free",
+   "deadline": null,
+   "discoveredAt": "2026-11-19T01:10:09.495Z",
+   "eligibility": "No credit card required to claim free credits; only paid top-ups require card binding",
+   "regionAvailability": "Available worldwide",
+   "riskNote": "This credit is a launch-period offer; official terms may change at any time",
+   "sourceQuote": "Source: Lanmao AI. Every new account includes 3M free serverless tokens every 30 days.",
+   "sourceTier": "A",
+   "sourceUrl": "https://lanmao.ai/go/axforge-free-3m-serverless-tokens-monthly",
+   "status": "进行中",
+   "steps": [
+    "Register an account at axforge.ai",
+    "Copy the OpenAI-compatible API Key in the console",
+    "Point the SDK base URL to api.axforge.ai/v1 to start calling"
+   ]
+  },
+  {
+   "id": 209,
+   "title": "Databricks Free Trial: Up to $400 Credit, 14 Days Valid",
+   "benefit": "Free 14-day trial, up to $400 credit covering all platform features including Foundation Model Serving",
+   "category": "cloud",
+   "subcategory": "",
+   "tier": "pick",
+   "costType": "qualified",
+   "deadline": null,
+   "discoveredAt": "2026-11-19T01:10:09.495Z",
+   "eligibility": "For organizations and professionals evaluating business use cases; no credit card required to start trial, but underlying compute runs on your own AWS/Azure/GCP account",
+   "regionAvailability": "Available worldwide",
+   "riskNote": "Trial credit only offsets Databricks DBU costs; underlying cloud VMs and storage still billed to your own cloud account on a pay-as-you-go basis; account automatically converts to pay-as-you-go after trial ends",
+   "sourceQuote": "Source: Lanmao AI. Includes free usage credits valid for 14 days after the trial begins. Up to $400 in credits",
+   "sourceTier": "A",
+   "sourceUrl": "https://lanmao.ai/go/databricks-trial-400-usd-14-days",
+   "status": "进行中",
+   "steps": [
+    "Visit official website to register for Databricks free trial account",
+    "Bind your own cloud account (AWS/Azure/GCP) to deploy workspace",
+    "Use credit to offset DBU costs during trial, experience all platform features"
+   ]
+  },
+  {
+   "id": 210,
+   "title": "Hyperbrowser Free 5,000 Credits (approx. 50 hours browser time)",
+   "benefit": "Get 5,000 free credits, good for approx. 50 hours of browser usage or 5,000 page scrapes",
+   "category": "cloud",
+   "subcategory": "",
+   "tier": "pick",
+   "costType": "free",
+   "deadline": null,
+   "discoveredAt": "2026-11-19T01:10:09.495Z",
+   "eligibility": "No credit card required, claim upon registration",
+   "regionAvailability": "Available worldwide",
+   "riskNote": "Free credits are a one-time grant, not monthly refreshed; proxy data and CAPTCHA unlocking require paid plan",
+   "sourceQuote": "Source: Lanmao AI. Free $0 to start · 5,000 credits included. All four products · 1 concurrent session · 7 days of data retention",
+   "sourceTier": "A",
+   "sourceUrl": "https://lanmao.ai/go/hyperbrowser-free-5000-credits",
+   "status": "进行中",
+   "steps": [
+    "Visit hyperbrowser.ai/pricing to register an account",
+    "Enter Free plan to automatically receive 5,000 credits",
+    "Create your first workflow in the console to start using"
+   ]
+  },
+  {
+   "id": 211,
+   "title": "Meshy Z-Axis Awards Global AI 3D Creation Competition",
+   "benefit": "Get 1000 free Meshy credits just for entering, submissions close 2027-01-24",
+   "category": "ai",
+   "subcategory": "Generation credits",
+   "tier": "S",
+   "costType": "free",
+   "deadline": "2027-01-24T00:00:00.000Z",
+   "discoveredAt": "2026-11-19T01:10:09.495Z",
+   "eligibility": "Open to creators worldwide, free to enter, no purchase or paid subscription required",
+   "regionAvailability": "Available worldwide",
+   "riskNote": "Credits limited to entrants for creating 3D projects, not unconditional free top-up",
+   "sourceQuote": "Source: Cyber Egg. Submissions open Nov 17, 2026 – Jan 24, 2027 · Free to enter 1000 credits for Meshy Creators",
+   "sourceTier": "A",
+   "sourceUrl": "https://www.meshy.ai/z-axis-awards",
+   "status": "进行中",
+   "steps": [
+    "Visit meshy.ai/z-axis-awards to read rules",
+    "Create 3D work with Meshy and submit entry",
+    "Claim 1000 credits in the creator benefits section on the event page"
+   ]
+  },
+  {
+   "id": 212,
+   "title": "OpenCode Console Limited-Time Free Models: DeepSeek V4.1 Flash, etc.",
+   "benefit": "Multiple models including DeepSeek V4.1 Flash, MiMo-V2.6-Flash, Nemotron 3.5 Lightning, Beam, Flint 40B available for free on OpenCode Console for a limited time",
+   "category": "freetoken",
+   "subcategory": "AI credits",
+   "tier": "S",
+   "costType": "free",
+   "deadline": null,
+   "discoveredAt": "2026-11-19T01:10:09.496Z",
+   "eligibility": "Must use OpenCode Console (opencode.ai) client; free models only available within OpenCode, other clients require paid models",
+   "regionAvailability": "Available worldwide",
+   "riskNote": "Free models only available within OpenCode Console, cannot be called from other clients; limited-time offer, no official end date announced; free version of DeepSeek has 200K context only (paid version 1M)",
+   "sourceQuote": "DeepSeek V4.1 Flash Free is free on OpenCode for a limited time. Its provider follows a zero-retention policy and does not use your data for model training.",
+   "sourceTier": "A",
+   "sourceUrl": "https://opencode.ai/docs/console/models/",
+   "status": "进行中",
+   "steps": [
+    "Visit opencode.ai and install/open OpenCode Console",
+    "Select a model marked as Free in model selection (e.g., DeepSeek V4.1 Flash Free)",
+    "Start a conversation, free quota applies automatically"
+   ]
+  },
+  {
+   "id": 213,
+   "title": "Uppcoder Spark Free Cloud Development Environment",
+   "benefit": "1 app + 1 database free forever, 2GB RAM/storage, no credit card required",
+   "category": "cloud",
+   "subcategory": "",
+   "tier": "pick",
+   "costType": "free",
+   "deadline": null,
+   "discoveredAt": "2026-11-19T01:10:09.496Z",
+   "eligibility": "No credit card required, global users can register and use",
+   "regionAvailability": "Available worldwide",
+   "riskNote": "Platform is very new (launched mid-October 2026), stability unproven; free tier is a cloud dev environment, not a VPS; free tier does not include custom domains",
+   "sourceQuote": "Source: Cyber Egg. The free plan (Spark) runs one app with one database. No card needed, and no time limit",
+   "sourceTier": "A",
+   "sourceUrl": "https://portal.uppcoder.com/pricing",
+   "status": "进行中",
+   "steps": [
+    "Visit portal.uppcoder.com to register an account",
+    "Select the Spark free plan to create a project",
+    "Launch the development environment via VS Code in the browser"
+   ]
+  },
+  {
+   "id": 214,
+   "title": "Z.ai ZCode New User GLM Model Free Trial Credits",
+   "benefit": "New users receive 8 million tokens per day for the first 5 days after connecting a BigModel account (GLM-5.3 3 million + GLM-5.3-Flash 5 million)",
+   "category": "freetoken",
+   "subcategory": "AI credits",
+   "tier": "S",
+   "costType": "qualified",
+   "deadline": null,
+   "discoveredAt": "2026-11-19T01:10:09.496Z",
+   "eligibility": "New users, must connect BigModel account",
+   "regionAvailability": "Available worldwide",
+   "riskNote": "Trial period is only 5 days; daily quota expires after 5 days, not an ongoing daily quota",
+   "sourceQuote": "Source: Cyber Egg. New users automatically receive a trial plan after connecting a BigModel account: no payment required, with 8 million tokens per day for the first 5 days for GLM model trials.",
+   "sourceTier": "A",
+   "sourceUrl": "https://zcode.z.ai/en/docs/configuration",
+   "status": "进行中",
+   "steps": [
+    "Visit zcode.z.ai and download/install the ZCode desktop client",
+    "Log in or register a Z.ai account and link a BigModel account",
+    "Trial plan activates automatically; start using GLM model credits"
    ]
   }
  ]

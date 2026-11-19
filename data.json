@@ -3,6 +3,17 @@
  "exportedAt": "2026-11-18T01:54:24.000Z",
  "issues": [
   {
+   "dealCount": 7,
+   "id": 21,
+   "kind": "main",
+   "label": "2026-11-19 主刊",
+   "status": "published",
+   "summary": "第21期：S级 5 条（AI/软件 1 条 · 海外 0 条 · 免费Token 4 条），新分类：Crypto 0 条 · U卡 0 条 · 海外银行 0 条 · VPS云服务 3 条。Pi 生成 8 条 / 人工兜底 0 条。注：Crypto/U卡/银行扫描未见可核验新优惠（币安欢迎奖励第14期已收、OKX官方无固定金额、Coinbase第18期已收），未收录；Meta Muse 10亿Token邀请因官网无法打开核验且仅限美加等地区，未收录；Epic喜加二第20期已收。",
+   "startedAt": "2026-11-19T00:58:41.411Z",
+   "finishedAt": "2026-11-19T01:10:09.567Z",
+   "error": null
+  },
+  {
    "dealCount": 24,
    "id": 20,
    "kind": "main",
@@ -4923,6 +4934,167 @@
     "在免费游戏专区找到《异形：隔离》与《深渊印记》点击获取",
     "确认订单后两款游戏永久入库"
    ]
+  },
+  {
+   "benefit": "每新账号每 30 天获赠 300 万免费 Serverless Token",
+   "category": "freetoken",
+   "costType": "free",
+   "deadline": null,
+   "discoveredAt": "2026-11-19T01:10:09.495Z",
+   "eligibility": "无需信用卡即可领取免费额度；仅付费充值需绑卡",
+   "regionAvailability": "全球可用",
+   "riskNote": "该额度为发布期优惠，官方声明可能随时变更",
+   "sourceQuote": "信源：懒猫 AI。Every new account includes 3M free serverless tokens every 30 days.",
+   "sourceTier": "A",
+   "sourceUrl": "https://lanmao.ai/go/axforge-free-3m-serverless-tokens-monthly",
+   "status": "进行中",
+   "steps": [
+    "在 axforge.ai 注册账号",
+    "在控制台复制 OpenAI 兼容的 API Key",
+    "将 SDK 基址指向 api.axforge.ai/v1 即可调用"
+   ],
+   "subcategory": "AI额度",
+   "tier": "S",
+   "title": "AxForge 推理 API：每 30 天赠 300 万免费 Serverless Token",
+   "id": 208
+  },
+  {
+   "benefit": "免费试用 14 天，赠送高达 $400 信用额度，覆盖全平台功能含 Foundation Model Serving",
+   "category": "cloud",
+   "costType": "qualified",
+   "deadline": null,
+   "discoveredAt": "2026-11-19T01:10:09.495Z",
+   "eligibility": "面向组织与专业人士评估业务用途，无需信用卡即可开通试用，但底层计算跑在自有 AWS/Azure/GCP 账户上",
+   "regionAvailability": "全球可用",
+   "riskNote": "试用赠金仅抵扣 Databricks DBU 费用；底层云虚拟机与存储仍由您自有云账户按量付费，试用结束后账户自动转为按量付费模式",
+   "sourceQuote": "信源：懒猫 AI。Includes free usage credits valid for 14 days after the trial begins. Up to $400 in credits",
+   "sourceTier": "A",
+   "sourceUrl": "https://lanmao.ai/go/databricks-trial-400-usd-14-days",
+   "status": "进行中",
+   "steps": [
+    "访问官网注册 Databricks 免费试用账户",
+    "绑定自有云账户（AWS/Azure/GCP）部署工作区",
+    "试用期内使用赠金抵扣 DBU 费用，体验全平台功能"
+   ],
+   "subcategory": "",
+   "tier": "pick",
+   "title": "Databricks 免费试用：最高 $400 赠金，14 天有效",
+   "id": 209
+  },
+  {
+   "benefit": "免费领 5,000 积分，可抵约 50 小时浏览器使用或 5,000 页面抓取",
+   "category": "cloud",
+   "costType": "free",
+   "deadline": null,
+   "discoveredAt": "2026-11-19T01:10:09.495Z",
+   "eligibility": "无需信用卡，注册即可领取",
+   "regionAvailability": "全球可用",
+   "riskNote": "免费积分为一次性赠送，非月度刷新；代理数据与验证码解锁需付费计划",
+   "sourceQuote": "信源：懒猫 AI。Free $0 to start · 5,000 credits included. All four products · 1 concurrent session · 7 days of data retention",
+   "sourceTier": "A",
+   "sourceUrl": "https://lanmao.ai/go/hyperbrowser-free-5000-credits",
+   "status": "进行中",
+   "steps": [
+    "访问 hyperbrowser.ai/pricing 注册账号",
+    "进入 Free 计划自动获得 5,000 积分",
+    "在控制台创建首个工作流开始使用"
+   ],
+   "subcategory": "",
+   "tier": "pick",
+   "title": "Hyperbrowser 免费 5,000 积分（约 50 小时浏览器时长）",
+   "id": 210
+  },
+  {
+   "benefit": "参赛即送 1000 Meshy 免费积分，投稿截止 2027-01-24",
+   "category": "ai",
+   "costType": "free",
+   "deadline": "2027-01-24T00:00:00.000Z",
+   "discoveredAt": "2026-11-19T01:10:09.495Z",
+   "eligibility": "全球创作者均可免费参赛，无需购买或付费订阅",
+   "regionAvailability": "全球可用",
+   "riskNote": "积分仅限参赛者用于创作 3D 项目，并非无条件免费充值",
+   "sourceQuote": "信源：赛博鸡蛋。Submissions open Nov 17, 2026 – Jan 24, 2027 · Free to enter 1000 credits for Meshy Creators",
+   "sourceTier": "A",
+   "sourceUrl": "https://www.meshy.ai/z-axis-awards",
+   "status": "进行中",
+   "steps": [
+    "访问 meshy.ai/z-axis-awards 阅读规则",
+    "使用 Meshy 创作 3D 作品并提交参赛",
+    "在活动页创作者福利区领取 1000 积分"
+   ],
+   "subcategory": "生成额度",
+   "tier": "S",
+   "title": "Meshy Z-Axis Awards 全球 AI 3D 创作大赛",
+   "id": 211
+  },
+  {
+   "benefit": "DeepSeek V4.1 Flash、MiMo-V2.6-Flash、Nemotron 3.5 Lightning、Beam、Flint 40B 等多款模型在 OpenCode Console 限时免费使用",
+   "category": "freetoken",
+   "costType": "free",
+   "deadline": null,
+   "discoveredAt": "2026-11-19T01:10:09.496Z",
+   "eligibility": "需使用 OpenCode Console（opencode.ai）客户端；免费模型仅在 OpenCode 内可用，其他客户端需付费模型",
+   "regionAvailability": "全球可用",
+   "riskNote": "免费模型仅在 OpenCode Console 内可用，不可在其他客户端调用；为限时提供，官方未公布结束日期；免费版 DeepSeek 上下文仅 200K（付费版 1M）",
+   "sourceQuote": "DeepSeek V4.1 Flash Free is free on OpenCode for a limited time. Its provider follows a zero-retention policy and does not use your data for model training.",
+   "sourceTier": "A",
+   "sourceUrl": "https://opencode.ai/docs/console/models/",
+   "status": "进行中",
+   "steps": [
+    "访问 opencode.ai 并安装/打开 OpenCode Console",
+    "在模型选择中挑选标记为 Free 的模型（如 DeepSeek V4.1 Flash Free）",
+    "开始对话，免费额度自动生效"
+   ],
+   "subcategory": "AI额度",
+   "tier": "S",
+   "title": "OpenCode Console 限时免费模型：DeepSeek V4.1 Flash 等",
+   "id": 212
+  },
+  {
+   "benefit": "1 应用 + 1 数据库永久免费，2GB 内存/磁盘，无需信用卡",
+   "category": "cloud",
+   "costType": "free",
+   "deadline": null,
+   "discoveredAt": "2026-11-19T01:10:09.496Z",
+   "eligibility": "无需信用卡，全球用户可注册使用",
+   "regionAvailability": "全球可用",
+   "riskNote": "平台极新（2026 年 10 月中旬上线），稳定性未经验证；免费版为云开发环境而非 VPS；免费版不含自定义域名",
+   "sourceQuote": "信源：赛博鸡蛋。The free plan (Spark) runs one app with one database. No card needed, and no time limit",
+   "sourceTier": "A",
+   "sourceUrl": "https://portal.uppcoder.com/pricing",
+   "status": "进行中",
+   "steps": [
+    "访问 portal.uppcoder.com 注册账号",
+    "选择 Spark 免费方案创建项目",
+    "在浏览器中通过 VS Code 启动开发环境"
+   ],
+   "subcategory": "",
+   "tier": "pick",
+   "title": "Uppcoder Spark 免费云开发环境",
+   "id": 213
+  },
+  {
+   "benefit": "新用户连接 BigModel 账号后，前 5 天每天获赠 800 万 tokens（GLM-5.3 300 万 + GLM-5.3-Flash 500 万）",
+   "category": "freetoken",
+   "costType": "qualified",
+   "deadline": null,
+   "discoveredAt": "2026-11-19T01:10:09.496Z",
+   "eligibility": "新用户，需连接 BigModel 账号",
+   "regionAvailability": "全球可用",
+   "riskNote": "试用期仅 5 天，每日额度在 5 天后过期，不是持续的每日额度",
+   "sourceQuote": "信源：赛博鸡蛋。New users automatically receive a trial plan after connecting a BigModel account: no payment required, with 8 million tokens per day for the first 5 days for GLM model trials.",
+   "sourceTier": "A",
+   "sourceUrl": "https://zcode.z.ai/en/docs/configuration",
+   "status": "进行中",
+   "steps": [
+    "访问 zcode.z.ai 并下载安装 ZCode 桌面客户端",
+    "登录或注册 Z.ai 账号并绑定 BigModel 账号",
+    "自动激活试用计划，开始使用 GLM 模型额度"
+   ],
+   "subcategory": "AI额度",
+   "tier": "S",
+   "title": "Z.ai ZCode 新用户 GLM 模型免费试用额度",
+   "id": 214
   }
  ]
 }
