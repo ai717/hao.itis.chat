@@ -1,7 +1,18 @@
 {
   "site": "AI薅羊毛日报",
-  "exportedAt": "2026-11-23T01:55:30.000Z",
+  "exportedAt": "2026-11-24T01:59:58.000Z",
   "issues": [
+    {
+      "id": 26,
+      "kind": "main",
+      "label": "2026-11-24 主刊",
+      "startedAt": "2026-11-24T00:58:39.877Z",
+      "finishedAt": "2026-11-24T01:19:17.468Z",
+      "status": "published",
+      "dealCount": 29,
+      "error": null,
+      "summary": "S级 24 条（AI/软件 17 条 · 海外 0 条 · 免费Token 7 条），新分类：Crypto 0 条 · U卡 0 条 · 海外银行 0 条 · VPS云服务 4 条；另精选游戏 1 条。Pi 生成 29 条 / 人工兜底 0 条。亮点：SambaNova 免费档每模型每天 20 次请求+20 万 Tokens、Isaacus 新用户 $100、Reducto $150、Parallel 注册最高 $80、Meshy 大赛 1000 积分、OpenGame 参赛领 1 个月 ElevenLabs Creator。注：Crypto/U卡/海外银行主动扫描未见可核验新优惠（币安迎新礼各源金额与门槛不一致且需推荐码+入金/交易、OKX 按国家个性化、Coinbase 仅限美国用户且往期已收），未收录；Nodaroo 为 11 月新上线厂商、仅邀约链接可查，未收录；Trae/Nango/Netlify/OCR.space 等为 25 期已收，未重复收；Qoder 每日 100 Credits 自 11/19 起不再向免费用户开放；StepAudio 3 限免已于 11/23 到期；Epic 商店页文本抓取被策略拦截，本期 Epic 条目以 GamingRoute 引用的 Epic 商店促销数据（多家同日核对一致）为准。"
+    },
     {
       "dealCount": 18,
       "finishedAt": "2026-11-23T01:21:17.658Z",
@@ -6692,6 +6703,236 @@
       "subcategory": "会员试用",
       "tier": "S",
       "title": "Gemini Enterprise Plus 30 天免费试用"
+    },
+    {
+      "id": 282,
+      "title": "Hyperbolic 验证手机号送 $1 推理额度",
+      "benefit": "验证手机号即可使用 Inference 推理服务并获赠 1 美元额度",
+      "category": "freetoken",
+      "subcategory": "AI额度",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-24T01:19:17.367Z",
+      "eligibility": "所有用户均可注册免费档账号并验证手机号",
+      "regionAvailability": "全球可用",
+      "riskNote": "免费档无法开启 GPU 实例和存储卷，API 调用限速较严",
+      "sourceQuote": "信源：懒猫 AI。免费档账号验证手机号即可使用 Inference 推理，并加 1 美元额度；免费档不能开 GPU 实例和存储卷，API 限速较严。",
+      "sourceTier": "B",
+      "sourceUrl": "https://lanmao.ai/go/hyperbolic-phone-verification-1-usd-credit",
+      "status": "进行中",
+      "steps": [
+        "访问 Hyperbolic 官网注册免费档账号",
+        "在账号设置中完成手机号验证",
+        "验证通过后自动获得 $1 Inference 推理额度"
+      ]
+    },
+    {
+      "id": 283,
+      "title": "QwenNote 标准会员永久免费：每月 300 分钟转写",
+      "benefit": "每月 300 分钟语音转写、5 篇图文纪要、30 次 AI 问答，含发言人识别、118 种源语言识别、79 种语言翻译、200+ 纪要模板",
+      "category": "ai",
+      "subcategory": "会员试用",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-24T01:19:17.367Z",
+      "eligibility": "所有用户均可领取标准会员",
+      "regionAvailability": "全球可用",
+      "riskNote": "官网标注永久免费，以官网最新政策为准",
+      "sourceQuote": "信源：懒猫 AI。标准会员 0 元，官网写永久免费：每月基础 300 分钟语音转写、5 篇图文纪要、30 次 AI 问答；含发言人识别、118 种源语言识别、79 种语言翻译、200 多个纪要模板。",
+      "sourceTier": "B",
+      "sourceUrl": "https://lanmao.ai/go/qwennote-standard-free-300-min-transcription",
+      "status": "进行中",
+      "steps": [
+        "访问 https://lanmao.ai/go/qwennote-standard-free-300-min-transcription",
+        "点击领取标准会员",
+        "登录/注册账号即可激活永久免费权益"
+      ]
+    },
+    {
+      "id": 284,
+      "title": "千问办公 QwenWork 个人免费版：注册送 300 积分",
+      "benefit": "注册即得300积分，每月额外送100积分，含1G云盘、5个网页发布、10并行任务；11月14日起首次激活桌面端：付费会员送500积分(30天有效)，非付费送30天基础版会员",
+      "category": "ai",
+      "subcategory": "AI额度",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-24T01:19:17.367Z",
+      "eligibility": "所有新注册用户，桌面端激活福利限首次激活用户",
+      "regionAvailability": "全球可用",
+      "riskNote": "桌面端激活福利仅限首次激活用户；付费会员赠送的500积分30天有效",
+      "sourceQuote": "信源：懒猫 AI。个人免费版 0 元：注册赠送 300 积分，每月另有 100 积分，含 1G 云盘、可发布 5 个网页、10 个排队并行任务。",
+      "sourceTier": "B",
+      "sourceUrl": "https://lanmao.ai/go/qwenwork-personal-free-plan-300-points",
+      "status": "进行中",
+      "steps": [
+        "访问 QwenWork 官网注册账号",
+        "开通个人免费版，自动获得 300 积分",
+        "每月自动再得 100 积分"
+      ]
+    },
+    {
+      "id": 285,
+      "title": "Reducto Standard 文档解析 150美元免费额度",
+      "benefit": "Standard 档按量付费赠 150 美元免费用量，不限页数、支持 30+ 文件类型、最多 5 个 Studio 席位；用完后 r-1 每千页 $10、r-1 mini 每千页 $1",
+      "category": "ai",
+      "subcategory": "云与开发",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-24T01:19:17.367Z",
+      "eligibility": "所有用户均可注册领取",
+      "regionAvailability": "全球可用",
+      "riskNote": "免费额度用完后自动按官方标价计费，需留意用量避免超支",
+      "sourceQuote": "信源：懒猫 AI。Standard 档（按量付费）含 150 美元免费用量，不限页数，支持 30 多种文件类型，最多 5 个 Reducto Studio 席位；免费用量用完后按官方标价计费（r-1 解析每千页 10 美元，r-1 mini 每千页 1 美元）。",
+      "sourceTier": "B",
+      "sourceUrl": "https://lanmao.ai/go/reducto-standard-150-usd-free-usage-document-api",
+      "status": "进行中",
+      "steps": [
+        "访问 https://lanmao.ai/go/reducto-standard-150-usd-free-usage-document-api 跳转官网",
+        "注册/登录 Reducto 账号并选择 Standard 计划",
+        "在 Reducto Studio 中创建最多 5 个席位开始解析文档"
+      ]
+    },
+    {
+      "id": 286,
+      "title": "Bria AI Free 档 - 100 次免费图像生成",
+      "benefit": "注册即得 100 次免费图像生成，支持 API/MCP/Skills/SDK 调用全部模型，限速每分钟 10 请求",
+      "category": "ai",
+      "subcategory": "生成额度",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-24T01:19:17.367Z",
+      "eligibility": "任何用户注册即可使用，无需信用卡",
+      "regionAvailability": "全球可用",
+      "riskNote": "速率限制：每分钟最多 10 次请求",
+      "sourceQuote": "信源：懒猫 AI。Bria 平台 Free 档注册即用，官方写明免信用卡，含 100 次免费图像生成，可经 API、MCP、Skills、SDK 调用全部模型，速率上限每分钟 10 次请求。",
+      "sourceTier": "B",
+      "sourceUrl": "https://lanmao.ai/go/bria-ai-free-100-generations",
+      "status": "进行中",
+      "steps": [
+        "访问 Bria.ai 注册 Free 档账号",
+        "完成注册后即可获得 100 次免费生成额度",
+        "通过 API、MCP、Skills 或 SDK 调用模型生成图像"
+      ]
+    },
+    {
+      "id": 287,
+      "title": "Retell AI 注册送 10 美元免费额度",
+      "benefit": "按量付费档注册即得 10 美元赠金，含完整平台功能（API、Webhook、通话分析转写、模拟测试）及 20 路免费并发通话",
+      "category": "ai",
+      "subcategory": "AI额度",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-24T01:19:17.367Z",
+      "eligibility": "首次注册 Retell AI 按量付费档的用户",
+      "regionAvailability": "全球可用",
+      "riskNote": "语音 Agent 通话按分钟计费 0.07-0.31 美元，超出免费额度后产生费用",
+      "sourceQuote": "信源：懒猫 AI。Retell AI 按量付费档注册即含 10 美元免费额度，开放完整平台功能（含 API、Webhook、通话分析与转写、模拟测试）和 20 路免费并发通话；语音 Agent 每分钟 0.07 至 0.31 美元。",
+      "sourceTier": "B",
+      "sourceUrl": "https://lanmao.ai/go/retell-ai-voice-agent-10-usd-credit",
+      "status": "进行中",
+      "steps": [
+        "访问 https://lanmao.ai/go/retell-ai-voice-agent-10-usd-credit",
+        "点击注册并选择按量付费档",
+        "完成注册后自动获得 10 美元额度"
+      ]
+    },
+    {
+      "id": 288,
+      "title": "Vapi 注册送 5 美元免费额度",
+      "benefit": "注册即得 5 美元额度，含完整平台功能、2 个组织、1 个 Vapi 电话号码、4 路并发通话",
+      "category": "ai",
+      "subcategory": "AI额度",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-24T01:19:17.367Z",
+      "eligibility": "所有新注册用户均可领取",
+      "regionAvailability": "全球可用",
+      "riskNote": "托管费每分钟 0.05 美元，模型费用按成本透传，额度用完后按量计费",
+      "sourceQuote": "信源：懒猫 AI。Vapi 按用量档注册含 5 美元免费额度，含完整平台功能、2 个组织、1 个自带 Vapi 电话号码、4 路并发通话；Vapi 托管费每分钟 0.05 美元，模型按成本透传。",
+      "sourceTier": "B",
+      "sourceUrl": "https://lanmao.ai/go/vapi-voice-ai-5-usd-credit",
+      "status": "进行中",
+      "steps": [
+        "访问 https://lanmao.ai/go/vapi-voice-ai-5-usd-credit 跳转官网",
+        "点击注册 / 按用量档创建账号",
+        "账号激活后自动获得 5 美元额度"
+      ]
+    },
+    {
+      "id": 289,
+      "title": "LiberClaw 免费永久 AI Agent",
+      "benefit": "免费得 1 个 Agent、每天约 30 条消息、500MB 存储、含推理、无需自备 API Key，免绑卡永久可用",
+      "category": "ai",
+      "subcategory": "云与开发",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-24T01:19:17.367Z",
+      "eligibility": "任何人均可注册使用，无地区限制",
+      "regionAvailability": "全球可用",
+      "riskNote": "实时联网搜索为付费功能；免费版仅限 1 个 Agent、日均 30 条消息、500MB 存储",
+      "sourceQuote": "信源：赛博鸡蛋。The free tier is your trial — free forever, no card needed, with persistent memory and full agent capabilities.（官网定价页 FAQ 原文）",
+      "sourceTier": "C",
+      "sourceUrl": "https://liberclaw.ai/pricing",
+      "status": "进行中",
+      "steps": [
+        "访问 https://liberclaw.ai/pricing",
+        "点击免费套餐注册/登录",
+        "即可获得 1 个 Agent 与免费额度"
+      ]
+    },
+    {
+      "id": 290,
+      "title": "Braintrust Starter 免费版 - 每月10积分+1GB数据",
+      "benefit": "免费获取每月10积分（抵$10用量）、1GB处理数据、1万次评分、14天留存、无限用户/项目",
+      "category": "ai",
+      "subcategory": "云与开发",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-24T01:19:17.367Z",
+      "eligibility": "任何人均可注册，无需信用卡",
+      "regionAvailability": "全球可用",
+      "riskNote": "积分每月重置不结转；Starter 仅含 10 积分/月、1GB 数据/月、1 万评分/月、14 天留存",
+      "sourceQuote": "Starter includes 10 credits per month and Pro includes 100. Credits reset monthly and don't roll over. The Starter plan does not require a credit card to get started.（官网定价页 FAQ 原文）",
+      "sourceTier": "A",
+      "sourceUrl": "https://www.braintrust.dev/pricing",
+      "status": "进行中",
+      "steps": [
+        "访问 braintrust.dev/pricing",
+        "点击 Starter 方案的 'Get started' 或 'Start free'",
+        "按提示创建账户即可使用"
+      ]
+    },
+    {
+      "id": 291,
+      "title": "阿里云 AgentBay 新用户领 100 积分体验券",
+      "benefit": "免费得 100 积分，约折算云电脑 100 小时、云手机 100 小时、浏览器 200 小时、代码空间 200 小时",
+      "category": "cloud",
+      "subcategory": "",
+      "tier": "pick",
+      "costType": "qualified",
+      "deadline": null,
+      "discoveredAt": "2026-11-24T01:19:17.367Z",
+      "eligibility": "已实名认证的阿里云主账号且首次参加",
+      "regionAvailability": "全球可用",
+      "riskNote": "每个账号仅限领取一次",
+      "sourceQuote": "信源：懒猫 AI。已实名的阿里云主账号首次参加可免费获得 100 积分体验券，按官方扣减表折算约可用云电脑 100 小时、云手机 100 小时、浏览器 200 小时、代码空间 200 小时；每个账号仅一次。",
+      "sourceTier": "B",
+      "sourceUrl": "https://lanmao.ai/go/aliyun-agentbay-newuser-100-points-voucher",
+      "status": "进行中",
+      "steps": [
+        "打开活动链接 https://lanmao.ai/go/aliyun-agentbay-newuser-100-points-voucher",
+        "点击领取按钮并按提示完成授权/登录",
+        "领取成功后在阿里云 AgentBay 控制台查看积分余额"
+      ]
     }
   ]
 }

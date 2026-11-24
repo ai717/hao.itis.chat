@@ -1,7 +1,18 @@
 {
   "site": "AI Deals Daily",
-  "exportedAt": "2026-11-23T02:01:10.000Z",
+  "exportedAt": "2026-11-24T01:59:58.000Z",
   "issues": [
+    {
+      "id": 26,
+      "kind": "main",
+      "label": "2026-11-24 Main Issue",
+      "startedAt": "2026-11-24T00:58:39.877Z",
+      "finishedAt": "2026-11-24T01:19:17.468Z",
+      "status": "published",
+      "dealCount": 29,
+      "error": null,
+      "summary": "S-tier 24 items (AI/Software 17 items · Overseas 0 items · Free Token 7 items), new categories: Crypto 0 items · U-Card 0 items · Overseas Bank 0 items · VPS Cloud Service 4 items; additionally 1 curated game item. Pi generated 29 items / Human fallback 0 items. Highlights: SambaNova free tier 20 requests per model per day + 200,000 Tokens, Isaacus new users $100, Reducto $150, Parallel sign-up up to $80, Meshy contest 1000 credits, OpenGame participation gets 1 month ElevenLabs Creator. Note: Active scan of Crypto/U-Card/Overseas Bank found no verifiable new offers (Binance welcome gift amounts and thresholds inconsistent across sources and require referral code + deposit/trading, OKX personalized by country, Coinbase US-only and already collected in previous issues), not included; Nodaroo is a November new vendor, only accessible via invite links, not included; Trae/Nango/Netlify/OCR.space etc. already collected in issue 25, not duplicated; Qoder daily 100 Credits no longer available to free users since 11/19; StepAudio 3 free offer expired on 11/23; Epic store page text scraping blocked by policy, this issue's Epic entries based on GamingRoute-cited Epic store promo data (multiple sources cross-verified same day)."
+    },
     {
       "dealCount": 18,
       "finishedAt": "2026-11-23T01:21:17.658Z",
@@ -6693,6 +6704,236 @@
       "subcategory": "Membership Trial",
       "tier": "S",
       "title": "Gemini Enterprise Plus 30-day Free Trial"
+    },
+    {
+      "id": 282,
+      "title": "Hyperbolic Verify Phone Number to Get $1 Inference Credits",
+      "benefit": "Verify your phone number to use the Inference service and receive a $1 credit",
+      "category": "freetoken",
+      "subcategory": "AI Credits",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-24T01:19:17.367Z",
+      "eligibility": "All users can register for a free tier account and verify phone number",
+      "regionAvailability": "Available worldwide",
+      "riskNote": "Free tier cannot enable GPU instances and storage volumes, API call rate limiting is strict",
+      "sourceQuote": "Source: Lazy Cat AI. Free tier account verifies phone number to use Inference and receive a $1 credit; free tier cannot enable GPU instances and storage volumes, API rate limiting is strict.",
+      "sourceTier": "B",
+      "sourceUrl": "https://lanmao.ai/go/hyperbolic-phone-verification-1-usd-credit",
+      "status": "进行中",
+      "steps": [
+        "Visit Hyperbolic official website to register free tier account",
+        "Complete phone number verification in account settings",
+        "After verification, automatically receive $1 in Inference credits"
+      ]
+    },
+    {
+      "id": 283,
+      "title": "QwenNote Standard Membership Permanently Free: 300 Minutes Transcription Monthly",
+      "benefit": "300 minutes voice transcription monthly, 5 graphic summaries, 30 AI Q&A sessions, including speaker identification, 118 source language recognition, 79 language translations, 200+ summary templates",
+      "category": "ai",
+      "subcategory": "Membership Trials",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-24T01:19:17.367Z",
+      "eligibility": "All users can claim standard membership",
+      "regionAvailability": "Available worldwide",
+      "riskNote": "Official website states permanently free, subject to latest official website policy",
+      "sourceQuote": "Source: Lanmao AI. Standard membership $0, official website states permanently free: 300 minutes basic voice transcription monthly, 5 graphic summaries, 30 AI Q&A sessions; including speaker identification, 118 source language recognition, 79 language translations, 200+ summary templates.",
+      "sourceTier": "B",
+      "sourceUrl": "https://lanmao.ai/go/qwennote-standard-free-300-min-transcription",
+      "status": "进行中",
+      "steps": [
+        "Visit https://lanmao.ai/go/qwennote-standard-free-300-min-transcription",
+        "Click to claim standard membership",
+        "Log in/register account to activate permanently free benefits"
+      ]
+    },
+    {
+      "id": 284,
+      "title": "QwenWork Personal Free Version: Register to Get 300 Credits",
+      "benefit": "Get 300 credits upon registration, plus 100 additional credits each month, includes 1GB cloud storage, 5 web page publications, 10 parallel tasks; starting November 14, first-time desktop activation: paid members get 500 credits (valid for 30 days), non-paid get 30-day basic membership",
+      "category": "ai",
+      "subcategory": "AI Credits",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-24T01:19:17.367Z",
+      "eligibility": "All new registered users, desktop activation benefit limited to first-time activation users",
+      "regionAvailability": "Available worldwide",
+      "riskNote": "Desktop activation benefit limited to first-time activation users; 500 credits gifted to paid members valid for 30 days",
+      "sourceQuote": "Source: Lazy Cat AI. Personal free version $0: register to get 300 credits, additional 100 credits each month, includes 1GB cloud storage, can publish 5 web pages, 10 queued parallel tasks.",
+      "sourceTier": "B",
+      "sourceUrl": "https://lanmao.ai/go/qwenwork-personal-free-plan-300-points",
+      "status": "进行中",
+      "steps": [
+        "Visit QwenWork official website to register account",
+        "Activate personal free version, automatically get 300 credits",
+        "Automatically get 100 credits each month"
+      ]
+    },
+    {
+      "id": 285,
+      "title": "Reducto Standard Document Parsing 150 USD Free Quota",
+      "benefit": "Standard tier pay-as-you-go includes 150 USD free quota, unlimited pages, supports 30+ file types, up to 5 Studio seats; after exhaustion, r-1 at $10 per thousand pages, r-1 mini at $1 per thousand pages",
+      "category": "ai",
+      "subcategory": "Cloud & Dev",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-24T01:19:17.367Z",
+      "eligibility": "All users can register to claim",
+      "regionAvailability": "Available worldwide",
+      "riskNote": "After free quota is used up, billing automatically at official standard pricing; monitor usage to avoid overspending",
+      "sourceQuote": "Source: Lanmao AI. Standard tier (pay-as-you-go) includes 150 USD free quota, unlimited pages, supports 30+ file types, up to 5 Reducto Studio seats; after free quota is used up, billed at official standard pricing (r-1 parsing at 10 USD per thousand pages, r-1 mini at 1 USD per thousand pages).",
+      "sourceTier": "B",
+      "sourceUrl": "https://lanmao.ai/go/reducto-standard-150-usd-free-usage-document-api",
+      "status": "进行中",
+      "steps": [
+        "Visit https://lanmao.ai/go/reducto-standard-150-usd-free-usage-document-api to redirect to official website",
+        "Register/login to Reducto account and select Standard plan",
+        "Create up to 5 seats in Reducto Studio to start parsing documents"
+      ]
+    },
+    {
+      "id": 286,
+      "title": "Bria AI Free Tier - 100 Free Image Generations",
+      "benefit": "Get 100 free image generations upon registration, supports API/MCP/Skills/SDK calls to all models, rate limited to 10 requests per minute",
+      "category": "ai",
+      "subcategory": "Generation Credits",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-24T01:19:17.367Z",
+      "eligibility": "Any user can register and use, no credit card required",
+      "regionAvailability": "Available worldwide",
+      "riskNote": "Rate limit: maximum 10 requests per minute",
+      "sourceQuote": "Source: Lazy Cat AI. Bria platform Free Tier available upon registration, officially states no credit card required, includes 100 free image generations, can call all models via API, MCP, Skills, SDK, rate limit maximum 10 requests per minute.",
+      "sourceTier": "B",
+      "sourceUrl": "https://lanmao.ai/go/bria-ai-free-100-generations",
+      "status": "进行中",
+      "steps": [
+        "Visit Bria.ai to register for Free Tier account",
+        "After registration complete, receive 100 free generation credits",
+        "Call models via API, MCP, Skills, or SDK to generate images"
+      ]
+    },
+    {
+      "id": 287,
+      "title": "Retell AI registration gives 10 USD free credit",
+      "benefit": "Register for pay-as-you-go tier to get 10 USD credit immediately, includes full platform features (API, Webhook, call analysis transcription, simulation testing) and 20 free concurrent call lines",
+      "category": "ai",
+      "subcategory": "AI Credits",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-24T01:19:17.367Z",
+      "eligibility": "Users registering for Retell AI pay-as-you-go tier for the first time",
+      "regionAvailability": "Available worldwide",
+      "riskNote": "Voice Agent calls billed per minute at 0.07-0.31 USD, charges apply after free credit is exceeded",
+      "sourceQuote": "Source: Lanmao AI. Retell AI pay-as-you-go tier registration includes 10 USD free credit, opens full platform features (including API, Webhook, call analysis and transcription, simulation testing) and 20 free concurrent call lines; Voice Agent 0.07 to 0.31 USD per minute.",
+      "sourceTier": "B",
+      "sourceUrl": "https://lanmao.ai/go/retell-ai-voice-agent-10-usd-credit",
+      "status": "进行中",
+      "steps": [
+        "Visit https://lanmao.ai/go/retell-ai-voice-agent-10-usd-credit",
+        "Click register and select pay-as-you-go tier",
+        "Automatically receive 10 USD credit after registration completes"
+      ]
+    },
+    {
+      "id": 288,
+      "title": "Vapi sign up gets 5 USD free credit",
+      "benefit": "Get 5 USD credit upon registration, includes full platform features, 2 organizations, 1 Vapi phone number, 4 concurrent calls",
+      "category": "ai",
+      "subcategory": "AI Credits",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-24T01:19:17.367Z",
+      "eligibility": "All new registered users can claim",
+      "regionAvailability": "Available worldwide",
+      "riskNote": "Hosting fee 0.05 USD per minute, model fees passed through at cost, pay-as-you-go after credit exhausted",
+      "sourceQuote": "Source: Lanmao AI. Vapi registration by usage tier includes 5 USD free credit, includes full platform features, 2 organizations, 1 included Vapi phone number, 4 concurrent calls; Vapi hosting fee 0.05 USD per minute, model passed through at cost.",
+      "sourceTier": "B",
+      "sourceUrl": "https://lanmao.ai/go/vapi-voice-ai-5-usd-credit",
+      "status": "进行中",
+      "steps": [
+        "Visit https://lanmao.ai/go/vapi-voice-ai-5-usd-credit to redirect to official website",
+        "Click register / create account by usage tier",
+        "Account automatically receives 5 USD credit after activation"
+      ]
+    },
+    {
+      "id": 289,
+      "title": "LiberClaw Free Permanent AI Agent",
+      "benefit": "Get 1 Agent free, ~30 messages per day, 500MB storage, includes reasoning, no need to bring your own API Key, no card binding required, permanently available",
+      "category": "ai",
+      "subcategory": "Cloud & Dev",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-24T01:19:17.367Z",
+      "eligibility": "Anyone can register and use, no region restrictions",
+      "regionAvailability": "Available worldwide",
+      "riskNote": "Real-time web search is a paid feature; free tier limited to 1 Agent, ~30 messages per day, 500MB storage",
+      "sourceQuote": "Source: Cyber Egg. The free tier is your trial — free forever, no card needed, with persistent memory and full agent capabilities. (Official pricing page FAQ original text)",
+      "sourceTier": "C",
+      "sourceUrl": "https://liberclaw.ai/pricing",
+      "status": "进行中",
+      "steps": [
+        "Visit https://liberclaw.ai/pricing",
+        "Click free tier to register/login",
+        "Get 1 Agent and free quota"
+      ]
+    },
+    {
+      "id": 290,
+      "title": "Braintrust Starter Free - 10 Credits/Month + 1GB Data",
+      "benefit": "Get 10 credits/month (worth $10 usage), 1GB processed data, 10,000 evaluations, 14-day retention, unlimited users/projects",
+      "category": "ai",
+      "subcategory": "Cloud & Dev",
+      "tier": "S",
+      "costType": "free",
+      "deadline": null,
+      "discoveredAt": "2026-11-24T01:19:17.367Z",
+      "eligibility": "Anyone can register, no credit card required",
+      "regionAvailability": "Available worldwide",
+      "riskNote": "Credits reset monthly and don't roll over; Starter includes only 10 credits/month, 1GB data/month, 10,000 evaluations/month, 14-day retention",
+      "sourceQuote": "Starter includes 10 credits per month and Pro includes 100. Credits reset monthly and don't roll over. The Starter plan does not require a credit card to get started. (official pricing page FAQ original text)",
+      "sourceTier": "A",
+      "sourceUrl": "https://www.braintrust.dev/pricing",
+      "status": "进行中",
+      "steps": [
+        "Visit braintrust.dev/pricing",
+        "Click 'Get started' or 'Start free' on the Starter plan",
+        "Follow prompts to create account and start using"
+      ]
+    },
+    {
+      "id": 291,
+      "title": "Alibaba Cloud AgentBay: New Users Get a 100-Point Trial Voucher",
+      "benefit": "Get 100 points for free, approximately equivalent to cloud computer 100 hours, cloud phone 100 hours, browser 200 hours, code space 200 hours",
+      "category": "cloud",
+      "subcategory": "",
+      "tier": "pick",
+      "costType": "qualified",
+      "deadline": null,
+      "discoveredAt": "2026-11-24T01:19:17.367Z",
+      "eligibility": "Alibaba Cloud main account with real-name verification and first-time participation",
+      "regionAvailability": "Available worldwide",
+      "riskNote": "Each account limited to claim once",
+      "sourceQuote": "Source: Lazy Cat AI. Verified Alibaba Cloud main accounts participating for the first time can get 100 points experience voucher for free, according to official deduction table approximately equivalent to cloud computer 100 hours, cloud phone 100 hours, browser 200 hours, code space 200 hours; each account only once.",
+      "sourceTier": "B",
+      "sourceUrl": "https://lanmao.ai/go/aliyun-agentbay-newuser-100-points-voucher",
+      "status": "进行中",
+      "steps": [
+        "Open event link https://lanmao.ai/go/aliyun-agentbay-newuser-100-points-voucher",
+        "Click claim button and complete authorization/login as prompted",
+        "After successful claim, check points balance in Alibaba Cloud AgentBay console"
+      ]
     }
   ]
 }
